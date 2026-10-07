@@ -1,0 +1,43 @@
+{
+ "decision": "adopt DyF-ZTL-RV",
+ "passing": [
+  "DyF-ZTL-RV"
+ ],
+ "verdicts": {
+  "DyF-ZTL-RN": {
+   "D1": false,
+   "D2": false,
+   "D3": true,
+   "mean_gain_weak": -1.4799999999999986,
+   "min_gain_weak": -11.700000000000003,
+   "clean_gain": 0.125,
+   "honest_rej_change": 5.425000000000002,
+   "backdoor_asr_change": 1.9499212503433228,
+   "boost_asr_change": -18.453316274099052
+  },
+  "DyF-ZTL-RV": {
+   "D1": true,
+   "D2": true,
+   "D3": true,
+   "mean_gain_weak": 4.078750000000001,
+   "min_gain_weak": 0.09000000000000341,
+   "clean_gain": 0.29000000000000625,
+   "honest_rej_change": 2.174999999999999,
+   "backdoor_asr_change": -22.35434651374817,
+   "boost_asr_change": -17.982981959357858
+  },
+  "DyF-ZTL-RNV": {
+   "D1": true,
+   "D2": false,
+   "D3": true,
+   "mean_gain_weak": 3.7337500000000006,
+   "min_gain_weak": 0.020000000000010232,
+   "clean_gain": 0.19000000000000483,
+   "honest_rej_change": 6.325000000000002,
+   "backdoor_asr_change": 1.9499212503433228,
+   "boost_asr_change": -19.165346474619582
+  }
+ },
+ "missing": [],
+ "rule": "(all on the pilot seeds; \"baseline\" = v2.1 on the same seed and condition):\n  D1 effectiveness: weak conditions = cyclic 0.5 / 0.8 / 0.9 and targeted flip 0.2 \u2014\n     every (condition, seed): accuracy >= baseline - 0.5; mean gain over the 8 cells >= +2.0 points.\n  D2 no clean cost: clean accuracy >= baseline - 0.5; clean honest rejection <= baseline + 5 points.\n  D3 integrity kept: backdoor 0.4 conditional ASR <= baseline + 5; boosted backdoor 0.4 ASR <= baseline + 5\n     and accuracy >= baseline - 1.\nChoice: among variants passing D1-D3, the simplest in the order N, V, NV. None passes -> keep v2.1.\n    python audit/choose_agg.py -> results_r02/calibration/agg_variant.json"
+}

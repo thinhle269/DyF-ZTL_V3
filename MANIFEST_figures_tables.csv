@@ -1,0 +1,45 @@
+asset,source
+tables_csv/tab_clean.csv,"Clean-data performance after 100 rounds (test split, evaluated once; mean $\pm$ SD over se"
+tables_csv/tab_tests.csv,Paired comparisons of DyF-ZTL (v2.2) against each method over the ten common seeds (clean 
+tables_csv/tab_client_sizes.csv,Client sample counts before and after local SMOTE for the ten clean-comparison partitions 
+tables_csv/tab_aggregation.csv,"Aggregation ablation on clean data (100 rounds, paired by seed): uniform averaging versus "
+tables_csv/tab_per_class.csv,"Per-class precision, recall and F1 on the test split, mean $\pm$ SD over the ten clean see"
+tables_csv/tab_cyclic.csv,Global accuracy (\%) under cyclic label flipping as a function of the compromised-client r
+tables_csv/tab_cyclic_f1.csv,"Macro-F1 (\%) under cyclic label flipping (mean $\pm$ SD over seeds 0--9, 100 rounds)."
+tables_csv/tab_cyclic_tests.csv,Paired accuracy differences per poisoning ratio between DyF-ZTL (v2.2) and the two closest
+tables_csv/tab_admission.csv,"Admission decisions of DyF-ZTL (v2.2) under cyclic label flipping (ten seeds, 100 rounds, "
+tables_csv/tab_attacks.csv,"Accuracy (\%) under the additional threat models (mean $\pm$ SD over seeds 0--4, 100 round"
+tables_csv/tab_engine.csv,"Engine evolution and evidence ablation (accuracy and conditional ASR in \%, mean $\pm$ SD;"
+tables_csv/tab_trusted_set.csv,"Trusted-corpus conditions under cyclic label flipping (seeds 0--4, 100 rounds). DyF-ZTL (v"
+tables_csv/tab_modes.csv,Integrity--participation trade-off of the three admission modes under cyclic label flippin
+tables_csv/tab_server_only.csv,Federation versus server-only training as a function of the trusted-corpus size (clean dat
+tables_csv/tab_heterogeneity.csv,Accuracy / macro-F1 (\%) across heterogeneity levels (seeds 0--4; $\alpha=0.5$ main settin
+tables_csv/tab_drift.csv,Temporal validity: accuracy / FAR$_B$ (\%) and number of seeds under the random split and 
+tables_csv/tab_rules.csv,Approximate symbolic rules extracted from the ten trained DyF-ZTL (v2.2) global models (on
+tables_csv/tab_systems.csv,Multi-process emulation on one host (server and every client as separate OS processes exch
+tables_csv/tab_sensitivity.csv,One-at-a-time sensitivity of DyF-ZTL (v2.2) to the engine constants and gate quantiles (ac
+tables_csv/tab_gates.csv,Calibrated gate constants per operating regime (0.5th / 5th percentiles of honest $\rho$ a
+figures/fig_convergence.png,"val_*.csv of the main preset (10 seeds), mean ± SD"
+figures/fig_cyclic.png,"cyclic preset, 10 seeds, mean ± SD (bands: DyF-ZTL, FLTrust)"
+figures/fig_admission.png,"analysis/admission_runs.csv (cyclic preset, 10 seeds)"
+figures/fig_dynamics.png,"trust_/decisions_DyF-ZTL-V_s4_p0.4_R100_f908bf4b7f.csv (cyclic 0.4, seed 4)"
+figures/fig_attacks.png,"attacks preset, ratio 0.4, 5 seeds"
+figures/fig_trusted_set.png,"trusted_set preset, 5 seeds"
+figures/fig_server_only.png,server_only_sizes + main presets (5/10 seeds)
+figures/fig_heterogeneity.png,heterogeneity + main presets (5/10 seeds)
+figures/fig_drift.png,"main, chrono, drift presets (10 seeds; random+oracle 5)"
+figures/fig_confusion.png,Legacy combined confusion-matrix chart; current paper uses three separate seed-4 confusion matrices.
+figures/fig_membership.png,Legacy combined membership chart; current paper uses Figures 16-19 as separate source assets.
+figures/fig_systems.png,systems/summary.csv (24 emulation runs)
+figures/fig_sensitivity.png,sensitivity preset (18 settings × 2 ratios × 5 seeds)
+figures/F02_fuzzy.png,Manuscript source image for Figure 2 (endpoint model).
+figures/fig_confusion_dyfztl.png,Manuscript source Figure 5; seed-4 DyF-ZTL test confusion matrix.
+figures/fig_confusion_scaffold.png,Manuscript source Figure 6; seed-4 SCAFFOLD test confusion matrix.
+figures/fig_confusion_fedproxu.png,Manuscript source Figure 7; seed-4 uniform FedProx test confusion matrix.
+figures/fig_membership_sysdriver.png,"Manuscript source Figure 16; learned memberships, seed-4 global checkpoint."
+figures/fig_membership_threads.png,"Manuscript source Figure 17; learned memberships, seed-4 global checkpoint."
+figures/fig_membership_tcpaps.png,"Manuscript source Figure 18; learned memberships, seed-4 global checkpoint."
+figures/fig_consequent.png,"Manuscript source Figure 19; consequent weights, seed-4 global checkpoint."
+figures/fig_firing_usage_rep.png,"Manuscript source Figure 20; Extension/E4_firing evidence, seed 4."
+figures/fig_firing_class_node_rep.png,"Manuscript source Figure 21; Extension/E4_firing evidence, seed 4."
+figures/fig_firing_neff.png,"Manuscript source Figure 22; Extension/E4_firing evidence, seeds 0-9."

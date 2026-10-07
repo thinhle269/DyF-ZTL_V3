@@ -1,0 +1,24 @@
+{
+ "rho_s": 0.3327762645949512,
+ "rho_m": 0.4717234349565899,
+ "c_s": -0.12977843932807445,
+ "c_m": -0.06831035055220123,
+ "m_s": 1.8221829431812602,
+ "condition": "mlp-U",
+ "seeds": [
+  100,
+  101,
+  102
+ ],
+ "runs": [
+  "DeepTrust-cal-U_s100_p0.0_R100_83c62b95eb",
+  "DeepTrust-cal-U_s101_p0.0_R100_2f41d5aeb7",
+  "DeepTrust-cal-U_s102_p0.0_R100_53bc9bcb9a"
+ ],
+ "n_client_rounds": 6000,
+ "quantiles": {
+  "strong": 0.005,
+  "mild": 0.05
+ },
+ "complete": true
+}

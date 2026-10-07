@@ -1,0 +1,18 @@
+{
+ "method": "SCAFFOLD2-SGD05",
+ "algo": "scaffold2",
+ "lr": 0.05,
+ "rule": "best final validation macro-F1 averaged over pilot seeds 100-101 (50 rounds)",
+ "mean_val_f1": {
+  "SCAFFOLD": 14.585,
+  "SCAFFOLD-SGD05": 14.585,
+  "SCAFFOLD-SGD10": 1.835,
+  "SCAFFOLD-SGD20": 6.035,
+  "SCAFFOLD2-SGD01": 87.045,
+  "SCAFFOLD2-SGD02": 87.915,
+  "SCAFFOLD2-SGD05": 88.535
+ },
+ "fedavg_mean_val_f1": 60.29,
+ "complete": true,
+ "missing": []
+}

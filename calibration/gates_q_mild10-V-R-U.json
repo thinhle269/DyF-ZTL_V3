@@ -1,0 +1,24 @@
+{
+ "rho_s": 0.35772511368466064,
+ "rho_m": 0.5151325531231504,
+ "c_s": -0.166650076135993,
+ "c_m": -0.05363994948565951,
+ "m_s": 1.972973760122488,
+ "condition": "q_mild10-V-R-U",
+ "seeds": [
+  100,
+  101,
+  102
+ ],
+ "runs": [
+  "DyF-ZTL-cal-V_s100_p0.0_R100_497e736ebd",
+  "DyF-ZTL-cal-V_s101_p0.0_R100_14f698fd17",
+  "DyF-ZTL-cal-V_s102_p0.0_R100_a2ba9b6b89"
+ ],
+ "n_client_rounds": 6000,
+ "quantiles": {
+  "strong": 0.005,
+  "mild": 0.1
+ },
+ "complete": true
+}

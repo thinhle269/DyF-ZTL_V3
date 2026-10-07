@@ -1,0 +1,47 @@
+{
+ "rounds": 100,
+ "rule": "10-round moving average of validation accuracy changes < 0.2 pp for all pilot runs",
+ "runs": 12,
+ "missing": [],
+ "complete": true,
+ "forced": false,
+ "note": "",
+ "detail": [
+  {
+   "rounds": 20,
+   "max_ma_change_pp": 27.961
+  },
+  {
+   "rounds": 30,
+   "max_ma_change_pp": 8.618
+  },
+  {
+   "rounds": 40,
+   "max_ma_change_pp": 1.615
+  },
+  {
+   "rounds": 50,
+   "max_ma_change_pp": 2.921
+  },
+  {
+   "rounds": 60,
+   "max_ma_change_pp": 5.626
+  },
+  {
+   "rounds": 70,
+   "max_ma_change_pp": 12.889
+  },
+  {
+   "rounds": 80,
+   "max_ma_change_pp": 3.139
+  },
+  {
+   "rounds": 90,
+   "max_ma_change_pp": 16.41
+  },
+  {
+   "rounds": 100,
+   "max_ma_change_pp": 7.273
+  }
+ ]
+}
