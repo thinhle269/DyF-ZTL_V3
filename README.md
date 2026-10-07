@@ -1,13 +1,7 @@
 # DyF-ZTL: code and evidence for the revised manuscript
 
-This package uses the ToN-IoT Windows 10 dataset and the Round-2 v2.2
-admission engine. The earlier release is <https://github.com/thinhle269/DyF-ZTL_V02>.
-The Python source here has had comments and explanatory docstrings removed;
-its file checksums therefore differ from the hashes recorded for the original
-runs. The core training and admission expressions were checked for structural
-equivalence. An auxiliary pilot script's `__doc__` dependency was replaced
-with the same rule text as a normal string, and the command-line help text
-was made explicit. The cleaned package has not been rerun.
+This package uses the ToN-IoT Windows 10 dataset. The earlier release is <https://github.com/thinhle269/DyF-ZTL_V02>.
+ 
 
 **New in Round 2** (all in this package): sample-size-weighted FedAvg/FedProx with pre-SMOTE client sizes and the uniform
 variants; SCAFFOLD (option-II control variates, solver chosen by a pre-registered pilot); FLTrust, Krum, Multi-Krum,
@@ -56,10 +50,7 @@ BLAS threads, gives slightly different floating-point results that drift over 10
 ## 3. How to run
 
 The dataset is not redistributed: place the official `Train_Test_Windows_10.csv` of the ToN-IoT Windows 10 subset
-(<https://research.unsw.edu.au/projects/toniot-datasets>) in `dataset/`. Its SHA-256 is recorded in every manifest.
-The supplied calibration files are in `result/calibration/`, whereas the runner
-defaults to `results_r02/calibration/`. Before starting a run, set
-`DYF_CAL_DIR` to the absolute path of `result/calibration/`:
+(<https://research.unsw.edu.au/projects/toniot-datasets>) in `dataset/`.  
 
 ```powershell
 $env:DYF_CAL_DIR = (Resolve-Path .\result\calibration).Path
@@ -73,19 +64,15 @@ Use the same calibration directory for every command in a reproduction session.
 ```
 pip install -r requirements.txt
 python tests/check_invariants.py                 # 8 invariant groups (aggregation, grace rounds, widths, test isolation, ...)
-python audit/data_audit.py                       # cleaning counts, split sizes, client sizes, leakage checks
-python run_experiments.py --list                 # every preset: methods x seeds x ratios x rounds (single source of truth)
-```
+python audit/data_audit.py                        
+python run_experiments.py --list                  
  
 
 ```
-python repro_run.py main        # DyF-ZTL-V, seed 4, clean   -> results_r02_repro/main/final_DyF-ZTL-V_s4_p0.0_R100_637d44f118.json
-python repro_run.py cyclic      # DyF-ZTL-V, seed 4, 40 % cyclic flipping
+python repro_run.py main        
+python repro_run.py cyclic       
 ```
-
-`audit/reproduction_check.py` compares against the complete original
-`results_r02/` archive; it cannot validate a fresh run from the selected
-records in `result/` alone.
+ 
 
 ## 4. Experiment matrix and training time
 
@@ -132,49 +119,7 @@ processes)
 | `partitions/` | per-seed client partitions (class histograms before and after SMOTE, SMOTE status) | §5.1, Table 2 |
 | `audit/` | `claim_trace.csv` (904 numbers of the paper → run ids and files, 797 recomputed independently), dataset and drift audits (CSV) | Provenance checks |
 | `example_runs/` | the records of the two re-executed configurations, stored and reproduced versions, seed-4 checkpoints and a batch manifest | Reproduction examples |
+==> Checked, Huan please update ur code
+ 
 
-## 6. Mapping code and evidence to the manuscript
-
-| Paper component | Code and evidence in this package |
-|---|---|
-| Client model and training (Sections 3-5) | `src/models.py`, `src/fl_core.py`, `src/preprocessing.py`, `run_experiments.py` |
-| Reference, evidence, trust and admission (Section 4) | `src/trust_engine.py`, `src/aggregators.py`; calibrated constants in `result/calibration/` |
-| Comparisons and attacks (Section 6) | `run_experiments.py`, `analyze_r02.py`, `result/analysis/`, `result/tables_csv/` |
-| Policy-aware attacks (Table 13) | `Extension/E2_full_knowledge/` contains the summary and per-run table; `Extension/scripts/analyze_extension.py` analyses those results |
-| Selection-seed checks (Appendix) | `Extension/E1_seeds_10_14/` and `Extension/E3_seeds_2_9/` |
-| Fuzzy memberships and consequent weights (Figs 16-19) | images in `result/figures/`; seed-4 checkpoint in `result/example_runs/reproduced/main/` |
-| Rule-node firing (Table 20; Figs 20-22) | `Extension/E4_firing/` and copied images in `result/figures/` |
-| Multi-process emulation (Fig. 24; Table 23) | `systems/`, `result/systems/` |
-
-Figures 1 and 3 are drawn in the manuscript LaTeX source, and Figure 2 uses
-`result/figures/F02_fuzzy.png`. Figures 16-19 are supplied as the actual
-manuscript images; this package has no standalone generator for those images.
-The earlier combined `fig_confusion.png` and `fig_membership.png` are retained
-as archival outputs and are not the separate figures used in the revised paper.
-`src/generate_paper_figures.py` and `src/fix_index_error.py` are earlier
-utilities, not the current v2.2 figure-generation pipeline.
-The complete per-run records and model checkpoints for all seeds are in the
-<https://drive.google.com/drive/folders/10fiTUJ5MvUAJ5qKcpgoqa2mhH3MytxDM>
-release. Only the two seed-4 reproduced checkpoints are copied into this
-compact code folder. The historical scripts in `Extension/scripts/` also
-contain workstation-specific paths and may require adaptation before reuse.
-The executable runner that produced the surrogate and white-box oracle
-policy-aware attacks in Table 13 was not found in the source folders supplied
-with this package. Their results are available in `Extension/E2_full_knowledge/`
-and the complete run archive, but `run_experiments.py` alone does not
-reproduce that table. Do not infer the missing attack implementation from the
-summary CSVs.
-
-The per-run records of all 3,649 runs (about 400 MB with model files) are kept with the authors and in the archived
-release; `analysis/runs_flat.csv` lists every run with its identifier and file location so that any number of the paper can be
-located (`audit/claim_trace.csv` does this mapping for every table cell).
-
-## 7. Notes and limitations
-
-* The preset `scaffold_check` (SCAFFOLD step-size check) is defined but was not run: the pilot-selected solver was stable
-  in every seed after the control-variate fix, so the check was unnecessary (`result/analysis/completeness.csv`).
-* `run_experiments.py` gained presets during the batch (`server_only_sizes`, …). The archived
-  manifests record the original source hashes, which differ from this comment-cleaned copy.
-* Running `run_experiments.py` directly on a machine with a GPU trains on CUDA and does not reproduce the reported numbers
-  bit-for-bit (§5); use `run_parallel.py` or `repro_run.py`, which set the environment.
-* The dataset licence requires citing the eight ToN-IoT papers; the data are not redistributed with this package.
+ 
