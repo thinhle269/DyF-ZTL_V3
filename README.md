@@ -115,7 +115,7 @@ The runs were scheduled across up to 20 lanes (about 5.3 days of wall-clock time
 engine versions v2 and v2.1 were evaluated first and are retained as ablations. The 111 runs that were superseded by a code
 fix (probation rule, SCAFFOLD control-variate weights, heterogeneity gates) are archived outside the
 analysis (`results_r02/_invalid/`, not included here). The multi-process emulation (24 scenarios of 20 rounds, 10-40 client
-processes) ran on the otherwise idle machine from 19:05 to 20:37 on 5 October.
+processes)  
 
 ## 5. The `result/` folder
 
