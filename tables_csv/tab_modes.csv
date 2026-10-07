@@ -1,0 +1,13 @@
+Ratio,Admission mode,$n$,Acc.\\(\%),Macro-F1\\(\%),Honest\\rej. (\%),Mal.\\rej. (\%),Attacker\\weight (\%),Rounds\\to rehab.
+0.2,hard exclusion (default),5,95.6$\pm$2.5,86.3$\pm$6.7,11.7$\pm$7.1,97.9$\pm$4.7,0.5$\pm$1.2,12.1$\pm$14.3
+,"probation (cooldown 5, trial re-admission)",5,94.8$\pm$5.2,85.3$\pm$11.8,10.9$\pm$6.8,97.8$\pm$5.0,0.6$\pm$1.3,10.3$\pm$6.7
+,"soft (trust-weighted, no exclusion)",5,94.9$\pm$3.1,84.3$\pm$8.3,0.0$\pm$0.0,0.0$\pm$0.0,0.7$\pm$1.4,--
+0.4,hard exclusion (default),5,96.4$\pm$1.3,88.5$\pm$2.8,13.2$\pm$7.5,99.4$\pm$1.4,0.4$\pm$0.9,5.2$\pm$1.9
+,"probation (cooldown 5, trial re-admission)",5,94.8$\pm$5.0,84.3$\pm$14.3,11.9$\pm$6.6,99.2$\pm$1.3,0.5$\pm$0.8,6.0$\pm$0.0
+,"soft (trust-weighted, no exclusion)",5,94.4$\pm$5.0,84.9$\pm$11.1,0.0$\pm$0.0,0.0$\pm$0.0,1.1$\pm$1.6,--
+0.6,hard exclusion (default),5,96.3$\pm$1.4,89.7$\pm$1.3,14.3$\pm$10.3,99.8$\pm$0.4,0.4$\pm$0.6,7.7$\pm$3.8
+,"probation (cooldown 5, trial re-admission)",5,93.5$\pm$5.5,82.4$\pm$15.5,13.3$\pm$8.0,99.2$\pm$0.9,1.2$\pm$1.4,6.0$\pm$0.0
+,"soft (trust-weighted, no exclusion)",5,94.2$\pm$6.1,83.6$\pm$18.2,0.0$\pm$0.0,0.0$\pm$0.0,1.4$\pm$2.0,--
+0.8,hard exclusion (default),5,96.5$\pm$0.8,90.2$\pm$1.4,19.0$\pm$15.1,100.0$\pm$0.1,0.1$\pm$0.2,10.3$\pm$9.0
+,"probation (cooldown 5, trial re-admission)",5,96.2$\pm$2.3,88.8$\pm$6.1,7.6$\pm$6.1,99.5$\pm$0.4,1.7$\pm$1.4,6.0$\pm$0.0
+,"soft (trust-weighted, no exclusion)",5,97.1$\pm$0.5,91.6$\pm$1.6,0.0$\pm$0.0,0.0$\pm$0.0,3.1$\pm$3.6,--

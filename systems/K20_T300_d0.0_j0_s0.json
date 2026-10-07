@@ -1,0 +1,66 @@
+{
+ "tag": "K20_T300_d0.0_j0_s0",
+ "args": {
+  "clients": 20,
+  "rounds": 20,
+  "epochs": 5,
+  "batch": 32,
+  "trust_size": 300,
+  "p_drop": 0.0,
+  "poison": 0.2,
+  "join_round": 0,
+  "timeout": 60.0,
+  "seed": 0,
+  "gates": "D:\\Samia\\Round_02\\results_r02\\calibration\\gates_size300-V-R-U.json",
+  "out": "D:\\Samia\\Round_02\\results_r02\\systems",
+  "tag": "K20_T300_d0.0_j0_s0",
+  "tdp_watts": 165.0,
+  "cores": 10
+ },
+ "attackers": [
+  1,
+  8,
+  18,
+  19
+ ],
+ "enroll_bytes": 5382628,
+ "t_enroll_s": 107.40314539999235,
+ "model_params": 1191,
+ "model_bytes": 6941,
+ "per_round_median": {
+  "bytes_down": 112080.0,
+  "bytes_up": 113104.0,
+  "bytes_control": 21392.0,
+  "t_local_median": 0.7603996750258375,
+  "t_collect": 1.5325910500250757,
+  "t_gate": 0.07583024998893961,
+  "t_aggregate": 0.0017077999655157328,
+  "t_round": 1.6144843500223942,
+  "cpu_local_median": 0.75390625,
+  "cpu_clients_total": 11.9140625,
+  "cpu_server": 0.078125,
+  "energy_clients_J": 196.58203125,
+  "energy_server_J": 1.2890625
+ },
+ "energy_note": "upper-bound estimate: CPU seconds x 165 W / 10 cores",
+ "peak_rss_server_mb": 700.375,
+ "peak_rss_client_mb_median": 621.041015625,
+ "inference_latency_ms": {
+  "median": 0.10249996557831764,
+  "p95": 0.32220000866800547
+ },
+ "final_states": {
+  "trusted": 13,
+  "probation": 0,
+  "excluded": 3,
+  "revoked": 4
+ },
+ "revoked_attackers": 3,
+ "revoked_honest": 1,
+ "final_val_acc": 96.07954621315002,
+ "final_test_acc": 96.38326168060303,
+ "hardware": {
+  "cpu": 20,
+  "torch_threads": 1
+ }
+}

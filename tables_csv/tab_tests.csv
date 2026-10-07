@@ -1,0 +1,21 @@
+Metric,Family,DyF-ZTL vs.,$n$,$\Delta$\\(pp),95\% CI,$p_t$,$p_t^{\mathrm{Holm}}$,$p_W$,$d_z$
+Accuracy,Eq.~1 baselines,FedAvg,10,+8.83,[+6.07; +11.59],$<$0.001,$<$0.001,0.002,2.29
+Accuracy,Eq.~1 baselines,FedProx,10,+2.95,[+1.98; +3.92],$<$0.001,$<$0.001,0.002,2.18
+Accuracy,Eq.~1 baselines,SCAFFOLD,10,+0.40,[-0.16; +0.95],0.140,0.140,0.193,0.51
+Accuracy,uniform baselines,FedAvg (uniform),10,+2.03,[+1.00; +3.07],0.002,0.003,0.002,1.40
+Accuracy,uniform baselines,FedProx (uniform),10,+0.61,[+0.21; +1.01],0.007,0.007,0.020,1.10
+Accuracy,uniform baselines,FLTrust,10,+0.73,[+0.38; +1.07],$<$0.001,0.003,0.008,1.51
+Accuracy,ablations,MLP + engine,10,+1.47,[+1.15; +1.80],$<$0.001,$<$0.001,0.002,3.21
+Accuracy,ablations,"DFNN, no engine",10,+0.95,[-0.05; +1.95],0.059,0.118,0.002,0.68
+Accuracy,ablations,Round-1 engine,10,+0.34,[-0.11; +0.80],0.118,0.118,0.193,0.55
+Accuracy,ablations,Server-only (DFNN),10,-0.57,[-0.98; -0.17],0.011,0.033,0.002,-1.01
+Macro-F1,Eq.~1 baselines,FedAvg,10,+29.49,[+22.53; +36.45],$<$0.001,$<$0.001,0.002,3.03
+Macro-F1,Eq.~1 baselines,FedProx,10,+11.44,[+7.09; +15.79],$<$0.001,$<$0.001,0.002,1.88
+Macro-F1,Eq.~1 baselines,SCAFFOLD,10,-1.72,[-5.98; +2.54],0.384,0.384,1.000,-0.29
+Macro-F1,uniform baselines,FedAvg (uniform),10,+8.90,[+4.42; +13.38],0.002,0.005,0.002,1.42
+Macro-F1,uniform baselines,FedProx (uniform),10,-1.36,[-5.15; +2.42],0.436,0.872,1.000,-0.26
+Macro-F1,uniform baselines,FLTrust,10,-0.76,[-3.87; +2.35],0.593,0.872,1.000,-0.18
+Macro-F1,ablations,MLP + engine,10,+6.17,[+4.41; +7.93],$<$0.001,$<$0.001,0.002,2.51
+Macro-F1,ablations,"DFNN, no engine",10,+4.23,[+0.53; +7.93],0.030,0.089,0.004,0.82
+Macro-F1,ablations,Round-1 engine,10,+0.04,[-2.15; +2.23],0.967,0.967,0.770,0.01
+Macro-F1,ablations,Server-only (DFNN),10,-4.25,[-8.14; -0.37],0.035,0.089,0.016,-0.78

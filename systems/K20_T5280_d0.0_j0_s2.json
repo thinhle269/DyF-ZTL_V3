@@ -1,0 +1,66 @@
+{
+ "tag": "K20_T5280_d0.0_j0_s2",
+ "args": {
+  "clients": 20,
+  "rounds": 20,
+  "epochs": 5,
+  "batch": 32,
+  "trust_size": 5280,
+  "p_drop": 0.0,
+  "poison": 0.2,
+  "join_round": 0,
+  "timeout": 60.0,
+  "seed": 2,
+  "gates": "D:\\Samia\\Round_02\\results_r02\\calibration\\gates_default-V-R-U.json",
+  "out": "D:\\Samia\\Round_02\\results_r02\\systems",
+  "tag": "K20_T5280_d0.0_j0_s2",
+  "tdp_watts": 165.0,
+  "cores": 10
+ },
+ "attackers": [
+  0,
+  4,
+  12,
+  18
+ ],
+ "enroll_bytes": 6039460,
+ "t_enroll_s": 120.8011335999472,
+ "model_params": 1191,
+ "model_bytes": 6941,
+ "per_round_median": {
+  "bytes_down": 112080.0,
+  "bytes_up": 113104.0,
+  "bytes_control": 21200.0,
+  "t_local_median": 0.4030399500625208,
+  "t_collect": 3.296056849998422,
+  "t_gate": 0.9552140499581583,
+  "t_aggregate": 0.001939200097694993,
+  "t_round": 4.254146050021518,
+  "cpu_local_median": 0.40234375,
+  "cpu_clients_total": 11.765625,
+  "cpu_server": 0.953125,
+  "energy_clients_J": 194.1328125,
+  "energy_server_J": 15.7265625
+ },
+ "energy_note": "upper-bound estimate: CPU seconds x 165 W / 10 cores",
+ "peak_rss_server_mb": 694.68359375,
+ "peak_rss_client_mb_median": 621.359375,
+ "inference_latency_ms": {
+  "median": 0.10529998689889908,
+  "p95": 0.12410001363605261
+ },
+ "final_states": {
+  "trusted": 15,
+  "probation": 0,
+  "excluded": 0,
+  "revoked": 5
+ },
+ "revoked_attackers": 4,
+ "revoked_honest": 1,
+ "final_val_acc": 96.36363387107849,
+ "final_test_acc": 96.25071287155151,
+ "hardware": {
+  "cpu": 20,
+  "torch_threads": 1
+ }
+}

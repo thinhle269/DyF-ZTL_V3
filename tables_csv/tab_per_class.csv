@@ -1,0 +1,43 @@
+Class,Method,$n$,Precision (\%),Recall (\%),F1 (\%)
+DDOS,DyF-ZTL,10,94.6$\pm$0.1,100.0$\pm$0.0,97.2$\pm$0.1
+DDOS,SCAFFOLD,10,94.6$\pm$0.1,100.0$\pm$0.1,97.2$\pm$0.0
+DDOS,FedProx (uniform),10,94.6$\pm$0.1,100.0$\pm$0.1,97.2$\pm$0.1
+DDOS,FedProx,10,94.6$\pm$0.1,100.0$\pm$0.0,97.2$\pm$0.0
+DDOS,FedAvg,10,94.7$\pm$0.5,99.5$\pm$0.9,97.0$\pm$0.4
+DDOS,Server-only (DFNN),10,94.7$\pm$0.0,99.9$\pm$0.1,97.2$\pm$0.1
+Dos,DyF-ZTL,10,63.6$\pm$0.6,98.2$\pm$2.8,77.2$\pm$1.2
+,SCAFFOLD,10,62.9$\pm$0.8,98.3$\pm$3.6,76.7$\pm$1.4
+,FedProx (uniform),10,63.4$\pm$0.6,98.6$\pm$1.9,77.1$\pm$0.8
+,FedProx,10,64.3$\pm$2.7,96.1$\pm$5.2,76.9$\pm$1.0
+,FedAvg,10,61.3$\pm$3.0,86.8$\pm$26.3,69.5$\pm$17.0
+,Server-only (DFNN),10,63.0$\pm$0.8,87.2$\pm$5.3,73.1$\pm$2.1
+Injection,DyF-ZTL,10,84.3$\pm$4.6,97.6$\pm$2.9,90.3$\pm$2.2
+,SCAFFOLD,10,78.2$\pm$3.8,99.8$\pm$0.5,87.6$\pm$2.4
+,FedProx (uniform),10,79.8$\pm$5.1,98.2$\pm$2.7,87.9$\pm$2.1
+,FedProx,10,84.1$\pm$5.3,97.4$\pm$2.8,90.1$\pm$2.2
+,FedAvg,10,84.0$\pm$6.9,93.2$\pm$6.8,88.0$\pm$3.8
+,Server-only (DFNN),10,89.6$\pm$3.3,89.1$\pm$4.8,89.2$\pm$1.8
+Normal,DyF-ZTL,10,98.6$\pm$1.0,96.9$\pm$0.4,97.7$\pm$0.3
+,SCAFFOLD,10,99.1$\pm$0.5,95.9$\pm$0.8,97.4$\pm$0.3
+,FedProx (uniform),10,99.2$\pm$0.9,95.4$\pm$0.7,97.2$\pm$0.2
+,FedProx,10,94.2$\pm$1.8,97.2$\pm$0.3,95.7$\pm$0.9
+,FedAvg,10,87.3$\pm$4.4,97.4$\pm$0.4,92.0$\pm$2.4
+,Server-only (DFNN),10,99.1$\pm$0.2,97.2$\pm$0.2,98.1$\pm$0.1
+Password,DyF-ZTL,10,99.6$\pm$0.1,99.3$\pm$0.9,99.5$\pm$0.5
+,SCAFFOLD,10,99.5$\pm$0.3,99.4$\pm$0.7,99.5$\pm$0.4
+,FedProx (uniform),10,99.6$\pm$0.0,99.6$\pm$0.5,99.6$\pm$0.3
+,FedProx,10,99.8$\pm$0.2,92.3$\pm$7.7,95.8$\pm$4.2
+,FedAvg,10,70.0$\pm$48.3,50.3$\pm$36.2,58.2$\pm$40.7
+,Server-only (DFNN),10,99.8$\pm$0.0,99.3$\pm$0.3,99.6$\pm$0.1
+Scanning,DyF-ZTL,10,76.7$\pm$28.0,56.8$\pm$37.0,61.0$\pm$36.2
+,SCAFFOLD,10,79.5$\pm$9.1,87.7$\pm$7.0,82.9$\pm$5.4
+,FedProx (uniform),10,81.6$\pm$7.1,84.9$\pm$10.4,82.5$\pm$3.3
+,FedProx,10,83.6$\pm$29.9,30.6$\pm$27.2,39.4$\pm$29.9
+,FedAvg,10,10.0$\pm$31.6,1.4$\pm$4.4,2.4$\pm$7.7
+,Server-only (DFNN),10,94.0$\pm$2.1,90.9$\pm$3.1,92.4$\pm$1.5
+Xss,DyF-ZTL,10,95.1$\pm$3.9,92.2$\pm$6.9,93.4$\pm$2.9
+,SCAFFOLD,10,88.4$\pm$10.0,88.1$\pm$12.1,87.1$\pm$4.4
+,FedProx (uniform),10,80.0$\pm$7.4,91.8$\pm$13.9,84.3$\pm$4.9
+,FedProx,10,79.0$\pm$41.6,31.5$\pm$28.5,41.2$\pm$33.5
+,FedAvg,10,7.2$\pm$22.2,1.7$\pm$5.3,2.8$\pm$8.5
+,Server-only (DFNN),10,95.1$\pm$2.5,97.7$\pm$1.3,96.4$\pm$1.6

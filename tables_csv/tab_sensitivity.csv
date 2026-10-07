@@ -1,0 +1,20 @@
+Setting (one factor changed),Ratio 0.2,Ratio 0.4
+"\textbf{default} ($\alpha{=}0.5$, $\lambda{=}0.2$, $\beta{=}0.9$, $\gamma{=}0.05$, $\tau_{\min}{=}0.4$, grace 0, quantiles 0.5\%/5\%)",95.58$\pm$2.52,96.36$\pm$1.27
+gate quantiles mild 10\%,96.83$\pm$0.78,96.33$\pm$1.22
+gate quantiles mild 2\% (default 5\%),94.47$\pm$5.15,94.06$\pm$5.93
+gate quantiles strong 0.1\% (default 0.5\%),95.57$\pm$2.45,96.37$\pm$1.29
+gate quantiles strong 1\%,95.15$\pm$3.67,96.45$\pm$1.33
+grace rounds = 2,94.61$\pm$4.83,96.66$\pm$0.76
+grace rounds = 3,94.37$\pm$5.02,95.30$\pm$3.20
+grace rounds = 4,95.72$\pm$1.89,94.36$\pm$5.19
+mild decay $\beta$ = 0.8,96.11$\pm$1.58,94.73$\pm$4.13
+mild decay $\beta$ = 0.95,93.94$\pm$5.00,93.85$\pm$5.87
+recovery $\gamma$ = 0.02,95.38$\pm$3.60,96.33$\pm$1.59
+recovery $\gamma$ = 0.1,94.46$\pm$5.03,94.95$\pm$4.29
+strong decay $\lambda$ = 0.1,95.52$\pm$2.48,96.40$\pm$1.30
+strong decay $\lambda$ = 0.4,95.66$\pm$2.50,96.35$\pm$1.28
+strong decay $\lambda$ = 0.8,96.89$\pm$0.57,96.03$\pm$1.23
+threshold floor $\tau_{\min}$ = 0.2,95.56$\pm$2.51,94.23$\pm$5.80
+threshold floor $\tau_{\min}$ = 0.6,95.35$\pm$3.79,96.37$\pm$0.91
+threshold spread $\alpha$ = 0.25,96.14$\pm$1.32,94.67$\pm$5.09
+threshold spread $\alpha$ = 1.0,94.18$\pm$5.07,96.36$\pm$1.27

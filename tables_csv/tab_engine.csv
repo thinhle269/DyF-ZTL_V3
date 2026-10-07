@@ -1,0 +1,11 @@
+Variant,Clean\\acc.,Honest rej.\\clean (\%),Cyclic 0.8\\acc.,Targeted 0.4\\acc.,Boosted backd.\\0.4 ASR,Backdoor\\0.4 ASR,Adaptive backd.\\0.4 ASR
+"Round-1 engine: absolute accuracy gates, uniform averaging",96.5$\pm$0.4,22.0$\pm$8.8,95.2$\pm$1.7 (10),96.3$\pm$0.8 (5),59$\pm$45 (5),93$\pm$10 (5),6$\pm$6 (5)
+"v2: dual evidence anchored to the global model, calibrated gates",96.7$\pm$0.5,7.4$\pm$5.1,53.1$\pm$59.6 (2),90.7$\pm$8.1 (2),1 (1),73$\pm$38 (2),25 (1)
+v2.1: functional evidence anchored to the server reference $W_{\mathrm{ref}}$,96.8$\pm$0.4,9.1$\pm$3.1,95.7$\pm$1.1 (4),96.0$\pm$1.4 (3),2$\pm$1 (3),68$\pm$29 (3),6$\pm$3 (3)
+\textbf{v2.2 (proposed): v2.1 + server reference update in the aggregate},96.9$\pm$0.5,11.3$\pm$3.1,96.4$\pm$0.9 (10),96.3$\pm$1.3 (5),2$\pm$3 (5),88$\pm$14 (5),9$\pm$3 (5)
+"v2.2, functional evidence only",--,--,--,96.1$\pm$1.6 (5),3$\pm$4 (5),74$\pm$23 (5),8$\pm$5 (5)
+"v2.2, geometric evidence only",--,--,--,86.9$\pm$7.4 (5),46$\pm$38 (5),80$\pm$21 (5),15$\pm$8 (5)
+v2.2 engine with MLP clients (w/o fuzzy layer),95.4$\pm$0.8,14.9$\pm$4.9,95.2$\pm$1.7 (5),--,--,--,--
+"DFNN, no engine (plain averaging)",95.9$\pm$1.4,--,1.7$\pm$2.5 (5),82.7$\pm$5.1 (5),100$\pm$0 (5),69$\pm$21 (5),24$\pm$13 (5)
+DFNN + FLTrust rule,--,--,--,96.0$\pm$1.5 (5),54$\pm$49 (5),54$\pm$49 (5),22$\pm$29 (5)
+FLTrust (MLP),96.2$\pm$0.4,--,95.1$\pm$0.9 (10),93.3$\pm$2.7 (5),54$\pm$39 (5),43$\pm$48 (5),13$\pm$6 (5)

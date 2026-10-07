@@ -1,0 +1,6 @@
+Split / feature set,DyF-ZTL (v2.2),FedProx (uniform),FedProx (Eq.~1),FedAvg
+"random split, all 15 features (main)",96.9$\pm$0.5 / 3$\pm$0 (10),--,93.9$\pm$1.4 / 3$\pm$0 (10),88.1$\pm$3.9 / 3$\pm$0 (10)
+"random split, 12 drifting counters removed (oracle)",96.5$\pm$0.6 / 3$\pm$1 (5),96.3$\pm$0.3 / 5$\pm$1 (5),92.3$\pm$4.2 / 3$\pm$0 (5),--
+"per-class chronological split, all 15 features",26.1$\pm$6.8 / 94$\pm$8 (10),23.8$\pm$1.5 / 100$\pm$0 (10),25.0$\pm$1.6 / 99$\pm$1 (10),23.4$\pm$4.5 / 91$\pm$7 (10)
+"chronological, drift-robust features (train-only rule)",30.5$\pm$0.8 / 100$\pm$0 (10),30.9$\pm$0.3 / 100$\pm$0 (10),30.4$\pm$0.5 / 100$\pm$0 (10),--
+"chronological, drift-oracle features (diagnostic)",61.3$\pm$2.6 / 51$\pm$0 (10),46.6$\pm$0.6 / 70$\pm$1 (10),46.5$\pm$0.8 / 69$\pm$1 (10),--

@@ -1,0 +1,8 @@
+Class,Seed,"Approximate rule (three antecedents, original units)",Prec. (\%),Recall (\%),Median prec. over seeds,Seeds with prec.$\ge$90\%
+ddos,6,"NIC TCP APS in [1.009e+04, 1.109e+04] $\wedge$ Mem. standby cache core B in [1.636e+08, 2.204e+08] $\wedge$ Mem. sys. driver total B in [1.638e+07, 2.07e+07]",98.5,69.0,60.6,3
+dos,5,"NIC TCP APS in [1.168e+04, 1.346e+04] $\wedge$ Mem. sys. driver total B in [1.638e+07, 2.159e+07] $\wedge$ NIC  unicast pkts sent/s in [-1.232e-07, 268.9]",69.4,89.5,68.4,0
+injection,5,"Mem. pool nonpaged B in [1.031e+08, 1.146e+08] $\wedge$ Mem. sys. driver total B in [2.821e+07, 3.155e+07] $\wedge$ Mem. standby cache core B in [1.585e+08, 2.576e+08]",78.8,69.2,46.2,0
+normal,0,"Proc. virtual B in [1.125e+14, 1.558e+14] $\wedge$ Mem. sys. driver total B in [1.638e+07, 2.973e+07] $\wedge$ Proc. thread count in [713, 2189]",100.0,43.7,100.0,7
+password,9,"Proc. handle count in [4.889e+04, 5.542e+04] $\wedge$ Mem. sys. driver resident B in [1.392e+05, 4.117e+12] $\wedge$ NIC  B sent/s in [2.493e+04, 5.215e+04]",98.0,73.3,42.6,2
+scanning,9,"Disk free MB in [1.69e+05, 1.731e+05] $\wedge$ Disk free (pct) in [82.48, 84.67] $\wedge$ Proc. pool paged B in [2.692e+07, 3.602e+07]",7.3,100.0,4.1,0
+xss,9,"Proc. thread count in [1461, 1828] $\wedge$ Mem. cache B peak in [4.478e+07, 1.902e+08] $\wedge$ Mem. pool nonpaged B in [1.261e+08, 1.486e+08]",52.4,99.5,29.1,0

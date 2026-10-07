@@ -1,0 +1,20 @@
+Regime,$\rho_s$,$\rho_m$,$c_s$,$c_m$,$m_s$
+chronological split,0.460,0.779,-0.447,-0.345,3.05
+"chronological, drift-oracle features",0.500,0.702,-0.403,-0.275,4.28
+"chronological, drift-robust features",0.577,0.730,-0.361,-0.285,2.15
+10\% contaminated,0.439,0.521,-0.250,-0.197,1.62
+5\% contaminated,0.416,0.493,-0.239,-0.192,1.68
+"default ($|D_{\mathrm{trust}}|=5{,}280$, $\alpha=0.5$)",0.358,0.465,-0.167,-0.094,1.97
+clients $\alpha=0.1$,0.148,0.191,-0.233,-0.157,1.86
+clients $\alpha=1$,0.435,0.523,-0.163,-0.089,1.76
+clients $\alpha=10$,0.574,0.620,-0.176,-0.091,1.62
+clients IID,0.957,0.981,-0.169,-0.085,1.83
+drift-oracle features,0.376,0.452,-0.179,-0.083,2.29
+no SMOTE,0.289,0.368,-0.062,0.003,0.88
+class-imbalanced corpus,0.398,0.566,-0.303,-0.221,2.33
+two classes missing,0.426,0.526,-0.290,-0.208,2.16
+MLP clients (DeepTrust ablation),0.345,0.485,-0.211,-0.084,1.80
+time-shifted corpus,0.292,0.383,-0.460,-0.279,3.78
+$|D_{\mathrm{trust}}|=100$,0.329,0.471,-0.296,-0.206,8.99
+"$|D_{\mathrm{trust}}|=1{,}200$",0.353,0.473,-0.261,-0.127,4.14
+$|D_{\mathrm{trust}}|=300$,0.367,0.462,-0.277,-0.154,7.94
