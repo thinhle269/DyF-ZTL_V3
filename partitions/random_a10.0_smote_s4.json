@@ -1,0 +1,569 @@
+{
+ "split": "random",
+ "alpha": 10.0,
+ "seed": 4,
+ "smote": true,
+ "classes": [
+  "ddos",
+  "dos",
+  "injection",
+  "normal",
+  "password",
+  "scanning",
+  "xss"
+ ],
+ "features": [
+  "Memory System Driver Total Bytes",
+  "Memory Cache Bytes Peak",
+  "Process_Thread Count",
+  "Network_I(Intel R _82574L_GNC)TCP_APS",
+  "Network_I(Intel R _82574L_GNC) Bytes Sent sec",
+  "Memory Pool Nonpaged Bytes",
+  "Process_Virtual_Bytes",
+  "Process_Pool_Paged Bytes",
+  "Process_Handle Count",
+  "Memory System Driver Resident Bytes",
+  "Memory Standby Cache Core Bytes",
+  "LogicalDisk(_Total) Free Megabytes",
+  "LogicalDisk(_Total) pct_ Free Space",
+  "Memory Free System Page Table Entries",
+  "Network_I(Intel R _82574L_GNC) Packets Sent Unicast sec"
+ ],
+ "n_train": 24640,
+ "n_val": 5280,
+ "n_test": 5281,
+ "scaler_mean": [
+  19432983.43896104,
+  178553711.87532467,
+  1274.7383928571428,
+  7237.776704545455,
+  5693.439775781991,
+  103818050.49350649,
+  208578977272727.28,
+  27075895.289285716,
+  47098.70166396104,
+  4702146638939.096,
+  186172823.93766233,
+  167998.79009740258,
+  82.08939491350164,
+  341789146.8817776,
+  25.93555500937772
+ ],
+ "scaler_scale": [
+  3026033.6004418856,
+  129450884.87046964,
+  283.783485185978,
+  2669.833814516531,
+  19023.23367826589,
+  14319834.424587663,
+  56893365305957.64,
+  5595124.911462969,
+  9057.919701710947,
+  7787652487858.792,
+  33562849.72510405,
+  3589.8616934613456,
+  1.7655755342671302,
+  1141384917.3053534,
+  85.54081535241939
+ ],
+ "val_hist": [
+  681,
+  76,
+  91,
+  3642,
+  539,
+  65,
+  186
+ ],
+ "test_hist": [
+  681,
+  76,
+  91,
+  3643,
+  539,
+  65,
+  186
+ ],
+ "clients": [
+  {
+   "client": 0,
+   "n_original": 1407,
+   "n_post": 4675,
+   "smote_status": "applied",
+   "hist_pre": [
+    207,
+    14,
+    30,
+    935,
+    221,
+    0,
+    0
+   ],
+   "hist_post": [
+    935,
+    935,
+    935,
+    935,
+    935,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 1,
+   "n_original": 1248,
+   "n_post": 4896,
+   "smote_status": "applied",
+   "hist_pre": [
+    218,
+    16,
+    16,
+    816,
+    159,
+    23,
+    0
+   ],
+   "hist_post": [
+    816,
+    816,
+    816,
+    816,
+    816,
+    816,
+    0
+   ]
+  },
+  {
+   "client": 2,
+   "n_original": 1195,
+   "n_post": 5306,
+   "smote_status": "applied",
+   "hist_pre": [
+    142,
+    9,
+    28,
+    758,
+    147,
+    21,
+    90
+   ],
+   "hist_post": [
+    758,
+    758,
+    758,
+    758,
+    758,
+    758,
+    758
+   ]
+  },
+  {
+   "client": 3,
+   "n_original": 1592,
+   "n_post": 5564,
+   "smote_status": "applied",
+   "hist_pre": [
+    168,
+    8,
+    25,
+    1391,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    1391,
+    1391,
+    1391,
+    1391,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 4,
+   "n_original": 1243,
+   "n_post": 5376,
+   "smote_status": "applied",
+   "hist_pre": [
+    217,
+    20,
+    21,
+    768,
+    135,
+    32,
+    50
+   ],
+   "hist_post": [
+    768,
+    768,
+    768,
+    768,
+    768,
+    768,
+    768
+   ]
+  },
+  {
+   "client": 5,
+   "n_original": 1220,
+   "n_post": 4585,
+   "smote_status": "applied",
+   "hist_pre": [
+    186,
+    21,
+    13,
+    655,
+    232,
+    35,
+    78
+   ],
+   "hist_post": [
+    655,
+    655,
+    655,
+    655,
+    655,
+    655,
+    655
+   ]
+  },
+  {
+   "client": 6,
+   "n_original": 956,
+   "n_post": 3836,
+   "smote_status": "applied",
+   "hist_pre": [
+    92,
+    30,
+    19,
+    548,
+    117,
+    39,
+    111
+   ],
+   "hist_post": [
+    548,
+    548,
+    548,
+    548,
+    548,
+    548,
+    548
+   ]
+  },
+  {
+   "client": 7,
+   "n_original": 1275,
+   "n_post": 4781,
+   "smote_status": "applied",
+   "hist_pre": [
+    154,
+    27,
+    16,
+    683,
+    205,
+    53,
+    137
+   ],
+   "hist_post": [
+    683,
+    683,
+    683,
+    683,
+    683,
+    683,
+    683
+   ]
+  },
+  {
+   "client": 8,
+   "n_original": 1223,
+   "n_post": 4935,
+   "smote_status": "applied",
+   "hist_pre": [
+    157,
+    12,
+    20,
+    705,
+    236,
+    23,
+    70
+   ],
+   "hist_post": [
+    705,
+    705,
+    705,
+    705,
+    705,
+    705,
+    705
+   ]
+  },
+  {
+   "client": 9,
+   "n_original": 891,
+   "n_post": 3143,
+   "smote_status": "applied",
+   "hist_pre": [
+    153,
+    12,
+    37,
+    449,
+    87,
+    24,
+    129
+   ],
+   "hist_post": [
+    449,
+    449,
+    449,
+    449,
+    449,
+    449,
+    449
+   ]
+  },
+  {
+   "client": 10,
+   "n_original": 1246,
+   "n_post": 4472,
+   "smote_status": "applied",
+   "hist_pre": [
+    89,
+    22,
+    17,
+    1118,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    1118,
+    1118,
+    1118,
+    1118,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 11,
+   "n_original": 1241,
+   "n_post": 5118,
+   "smote_status": "applied",
+   "hist_pre": [
+    182,
+    12,
+    18,
+    853,
+    164,
+    12,
+    0
+   ],
+   "hist_post": [
+    853,
+    853,
+    853,
+    853,
+    853,
+    853,
+    0
+   ]
+  },
+  {
+   "client": 12,
+   "n_original": 793,
+   "n_post": 2380,
+   "smote_status": "applied",
+   "hist_pre": [
+    208,
+    12,
+    20,
+    340,
+    143,
+    14,
+    56
+   ],
+   "hist_post": [
+    340,
+    340,
+    340,
+    340,
+    340,
+    340,
+    340
+   ]
+  },
+  {
+   "client": 13,
+   "n_original": 1308,
+   "n_post": 4500,
+   "smote_status": "applied",
+   "hist_pre": [
+    142,
+    27,
+    14,
+    1125,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    1125,
+    1125,
+    1125,
+    1125,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 14,
+   "n_original": 1093,
+   "n_post": 4529,
+   "smote_status": "applied",
+   "hist_pre": [
+    140,
+    20,
+    24,
+    647,
+    181,
+    8,
+    73
+   ],
+   "hist_post": [
+    647,
+    647,
+    647,
+    647,
+    647,
+    647,
+    647
+   ]
+  },
+  {
+   "client": 15,
+   "n_original": 1297,
+   "n_post": 4396,
+   "smote_status": "applied",
+   "hist_pre": [
+    166,
+    17,
+    15,
+    1099,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    1099,
+    1099,
+    1099,
+    1099,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 16,
+   "n_original": 1301,
+   "n_post": 4150,
+   "smote_status": "applied",
+   "hist_pre": [
+    198,
+    19,
+    15,
+    830,
+    239,
+    0,
+    0
+   ],
+   "hist_post": [
+    830,
+    830,
+    830,
+    830,
+    830,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 17,
+   "n_original": 1251,
+   "n_post": 4915,
+   "smote_status": "applied",
+   "hist_pre": [
+    110,
+    16,
+    17,
+    983,
+    125,
+    0,
+    0
+   ],
+   "hist_post": [
+    983,
+    983,
+    983,
+    983,
+    983,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 18,
+   "n_original": 1735,
+   "n_post": 6212,
+   "smote_status": "applied",
+   "hist_pre": [
+    122,
+    19,
+    41,
+    1553,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    1553,
+    1553,
+    1553,
+    1553,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 19,
+   "n_original": 1125,
+   "n_post": 5194,
+   "smote_status": "applied",
+   "hist_pre": [
+    126,
+    20,
+    18,
+    742,
+    125,
+    20,
+    74
+   ],
+   "hist_post": [
+    742,
+    742,
+    742,
+    742,
+    742,
+    742,
+    742
+   ]
+  }
+ ]
+}

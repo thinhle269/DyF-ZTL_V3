@@ -1,0 +1,535 @@
+{
+ "split": "random",
+ "alpha": 0.5,
+ "seed": 4,
+ "smote": true,
+ "classes": [
+  "ddos",
+  "dos",
+  "injection",
+  "normal",
+  "password",
+  "scanning",
+  "xss"
+ ],
+ "features": [
+  "Memory System Driver Total Bytes",
+  "Memory Cache Bytes Peak",
+  "Process_Thread Count",
+  "Network_I(Intel R _82574L_GNC)TCP_APS",
+  "Network_I(Intel R _82574L_GNC) Bytes Sent sec",
+  "Memory Pool Nonpaged Bytes",
+  "Process_Virtual_Bytes",
+  "Process_Pool_Paged Bytes",
+  "Process_Handle Count",
+  "Memory System Driver Resident Bytes",
+  "Memory Standby Cache Core Bytes",
+  "LogicalDisk(_Total) Free Megabytes",
+  "LogicalDisk(_Total) pct_ Free Space",
+  "Memory Free System Page Table Entries",
+  "Network_I(Intel R _82574L_GNC) Packets Sent Unicast sec"
+ ],
+ "n_train": 24640,
+ "n_val": 5280,
+ "n_test": 5281,
+ "val_hist": [
+  681,
+  76,
+  91,
+  3642,
+  539,
+  65,
+  186
+ ],
+ "test_hist": [
+  681,
+  76,
+  91,
+  3643,
+  539,
+  65,
+  186
+ ],
+ "clients": [
+  {
+   "client": 0,
+   "n_original": 929,
+   "n_post": 4290,
+   "smote_status": "applied",
+   "hist_pre": [
+    83,
+    11,
+    7,
+    715,
+    29,
+    0,
+    84
+   ],
+   "hist_post": [
+    715,
+    715,
+    715,
+    715,
+    715,
+    0,
+    715
+   ]
+  },
+  {
+   "client": 1,
+   "n_original": 2209,
+   "n_post": 8752,
+   "smote_status": "applied",
+   "hist_pre": [
+    8,
+    11,
+    2,
+    2188,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    2188,
+    2188,
+    2188,
+    2188,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 2,
+   "n_original": 1341,
+   "n_post": 2310,
+   "smote_status": "applied",
+   "hist_pre": [
+    533,
+    0,
+    38,
+    770,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    770,
+    0,
+    770,
+    770,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 3,
+   "n_original": 825,
+   "n_post": 3228,
+   "smote_status": "applied",
+   "hist_pre": [
+    79,
+    0,
+    5,
+    538,
+    126,
+    50,
+    27
+   ],
+   "hist_post": [
+    538,
+    0,
+    538,
+    538,
+    538,
+    538,
+    538
+   ]
+  },
+  {
+   "client": 4,
+   "n_original": 1343,
+   "n_post": 5651,
+   "smote_status": "partial",
+   "hist_pre": [
+    6,
+    0,
+    3,
+    1,
+    1130,
+    3,
+    200
+   ],
+   "hist_post": [
+    1130,
+    0,
+    1130,
+    1,
+    1130,
+    1130,
+    1130
+   ]
+  },
+  {
+   "client": 5,
+   "n_original": 894,
+   "n_post": 2886,
+   "smote_status": "partial",
+   "hist_pre": [
+    70,
+    5,
+    1,
+    577,
+    0,
+    24,
+    217
+   ],
+   "hist_post": [
+    577,
+    577,
+    1,
+    577,
+    0,
+    577,
+    577
+   ]
+  },
+  {
+   "client": 6,
+   "n_original": 173,
+   "n_post": 286,
+   "smote_status": "partial",
+   "hist_pre": [
+    17,
+    44,
+    2,
+    0,
+    52,
+    57,
+    1
+   ],
+   "hist_post": [
+    57,
+    57,
+    57,
+    0,
+    57,
+    57,
+    1
+   ]
+  },
+  {
+   "client": 7,
+   "n_original": 298,
+   "n_post": 528,
+   "smote_status": "applied",
+   "hist_pre": [
+    0,
+    20,
+    24,
+    74,
+    82,
+    10,
+    88
+   ],
+   "hist_post": [
+    0,
+    88,
+    88,
+    88,
+    88,
+    88,
+    88
+   ]
+  },
+  {
+   "client": 8,
+   "n_original": 1474,
+   "n_post": 3381,
+   "smote_status": "applied",
+   "hist_pre": [
+    180,
+    0,
+    167,
+    1127,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    1127,
+    0,
+    1127,
+    1127,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 9,
+   "n_original": 1801,
+   "n_post": 6944,
+   "smote_status": "applied",
+   "hist_pre": [
+    2,
+    8,
+    55,
+    1736,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    1736,
+    1736,
+    1736,
+    1736,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 10,
+   "n_original": 1403,
+   "n_post": 3240,
+   "smote_status": "applied",
+   "hist_pre": [
+    810,
+    8,
+    18,
+    567,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    810,
+    810,
+    810,
+    810,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 11,
+   "n_original": 565,
+   "n_post": 2629,
+   "smote_status": "partial",
+   "hist_pre": [
+    90,
+    2,
+    5,
+    1,
+    438,
+    3,
+    26
+   ],
+   "hist_post": [
+    438,
+    438,
+    438,
+    1,
+    438,
+    438,
+    438
+   ]
+  },
+  {
+   "client": 12,
+   "n_original": 3034,
+   "n_post": 11908,
+   "smote_status": "applied",
+   "hist_pre": [
+    6,
+    44,
+    7,
+    2977,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    2977,
+    2977,
+    2977,
+    2977,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 13,
+   "n_original": 741,
+   "n_post": 2911,
+   "smote_status": "partial",
+   "hist_pre": [
+    53,
+    14,
+    3,
+    485,
+    134,
+    1,
+    51
+   ],
+   "hist_post": [
+    485,
+    485,
+    485,
+    485,
+    485,
+    1,
+    485
+   ]
+  },
+  {
+   "client": 14,
+   "n_original": 1013,
+   "n_post": 3079,
+   "smote_status": "partial",
+   "hist_pre": [
+    203,
+    3,
+    1,
+    513,
+    229,
+    37,
+    27
+   ],
+   "hist_post": [
+    513,
+    513,
+    1,
+    513,
+    513,
+    513,
+    513
+   ]
+  },
+  {
+   "client": 15,
+   "n_original": 2063,
+   "n_post": 5832,
+   "smote_status": "applied",
+   "hist_pre": [
+    595,
+    5,
+    5,
+    1458,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    1458,
+    1458,
+    1458,
+    1458,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 16,
+   "n_original": 786,
+   "n_post": 2600,
+   "smote_status": "applied",
+   "hist_pre": [
+    56,
+    31,
+    0,
+    520,
+    0,
+    58,
+    121
+   ],
+   "hist_post": [
+    520,
+    520,
+    0,
+    520,
+    0,
+    520,
+    520
+   ]
+  },
+  {
+   "client": 17,
+   "n_original": 2412,
+   "n_post": 9416,
+   "smote_status": "applied",
+   "hist_pre": [
+    22,
+    29,
+    7,
+    2354,
+    0,
+    0,
+    0
+   ],
+   "hist_post": [
+    2354,
+    2354,
+    2354,
+    2354,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "client": 18,
+   "n_original": 611,
+   "n_post": 2527,
+   "smote_status": "applied",
+   "hist_pre": [
+    361,
+    117,
+    55,
+    5,
+    50,
+    13,
+    10
+   ],
+   "hist_post": [
+    361,
+    361,
+    361,
+    361,
+    361,
+    361,
+    361
+   ]
+  },
+  {
+   "client": 19,
+   "n_original": 725,
+   "n_post": 2353,
+   "smote_status": "partial",
+   "hist_pre": [
+    3,
+    1,
+    19,
+    392,
+    246,
+    48,
+    16
+   ],
+   "hist_post": [
+    392,
+    1,
+    392,
+    392,
+    392,
+    392,
+    392
+   ]
+  }
+ ]
+}
