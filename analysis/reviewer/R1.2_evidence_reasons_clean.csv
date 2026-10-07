@@ -1,0 +1,27 @@
+engine,reason,n,share_%
+DeepTrust (MLP + v2.2),direction-mild,1352,54.036770583533176
+DeepTrust (MLP + v2.2),functional-mild,881,35.21183053557154
+DeepTrust (MLP + v2.2),functional,147,5.875299760191846
+DeepTrust (MLP + v2.2),norm,96,3.8369304556354917
+DeepTrust (MLP + v2.2),functional-mild+norm,16,0.6394884092725819
+DeepTrust (MLP + v2.2),direction,8,0.31974420463629094
+DeepTrust (MLP + v2.2),functional-mild+direction-mild,2,0.07993605115907274
+DyF-ZTL (v2.2),direction-mild,707,37.99032778076303
+DyF-ZTL (v2.2),functional-mild,557,29.930145083288554
+DyF-ZTL (v2.2),norm,332,17.83987103707684
+DyF-ZTL (v2.2),functional,168,9.027404621171414
+DyF-ZTL (v2.2),direction,63,3.38527673293928
+DyF-ZTL (v2.2),functional-mild+norm,33,1.7732401934443847
+DyF-ZTL (v2.2),functional-mild+direction-mild,1,0.05373455131649651
+DyF-ZTL v2 (earlier),direction-mild,605,46.50269023827825
+DyF-ZTL v2 (earlier),functional-mild,253,19.446579554189086
+DyF-ZTL v2 (earlier),norm,223,17.14066102997694
+DyF-ZTL v2 (earlier),functional,145,11.145272867025366
+DyF-ZTL v2 (earlier),direction,42,3.2282859338970025
+DyF-ZTL v2 (earlier),functional-mild+norm,33,2.536510376633359
+DyF-ZTL v2.1 (earlier),direction-mild,575,40.780141843971634
+DyF-ZTL v2.1 (earlier),functional-mild,375,26.595744680851062
+DyF-ZTL v2.1 (earlier),norm,257,18.22695035460993
+DyF-ZTL v2.1 (earlier),functional,181,12.836879432624114
+DyF-ZTL v2.1 (earlier),functional-mild+norm,13,0.9219858156028369
+DyF-ZTL v2.1 (earlier),direction,9,0.6382978723404256

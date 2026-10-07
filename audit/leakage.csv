@@ -1,0 +1,6 @@
+check,value,of
+"exact duplicate of a train row (val, all 124 features)",0,5280
+"exact duplicate of a train row (test, all 124 features)",0,5281
+"median gap (s) test record -> nearest same-class train record, random split",10.0,5281
+"share of test records within 10 s of a same-class train record, random split",83.87,5281
+metadata columns available for host/session grouping,ts,127

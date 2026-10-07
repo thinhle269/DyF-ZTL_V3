@@ -1,0 +1,217 @@
+attack,schedule,participation,ratio,method,n,accuracy,macro_f1,asr_conditional,attack_to_normal
+adaptive_backdoor,static,1.0,0.2,DyF-ZTL,1,94.40,77.67,2.85,12.21
+adaptive_backdoor,static,1.0,0.2,DyF-ZTL-F,1,95.55,78.32,7.18,8.06
+adaptive_backdoor,static,1.0,0.2,DyF-ZTL-G,1,94.40,77.67,2.85,12.21
+adaptive_backdoor,static,1.0,0.2,DyF-ZTL-R,3,96.32 ± 0.60,86.31 ± 4.28,5.73 ± 4.57,5.03 ± 2.80
+adaptive_backdoor,static,1.0,0.2,DyF-ZTL-R-F,3,95.96 ± 0.75,82.36 ± 5.42,6.91 ± 5.66,6.25 ± 3.16
+adaptive_backdoor,static,1.0,0.2,DyF-ZTL-R-G,3,95.80 ± 1.31,84.78 ± 6.29,8.45 ± 10.72,6.76 ± 5.16
+adaptive_backdoor,static,1.0,0.2,DyF-ZTL-V,5,97.20 ± 0.17,91.04 ± 1.26,3.93 ± 2.53,1.98 ± 1.02
+adaptive_backdoor,static,1.0,0.2,DyF-ZTL-V-F,5,97.13 ± 0.23,90.56 ± 1.98,4.68 ± 2.71,2.15 ± 1.49
+adaptive_backdoor,static,1.0,0.2,DyF-ZTL-V-G,5,96.91 ± 0.42,88.96 ± 2.50,6.82 ± 6.25,3.25 ± 1.87
+adaptive_backdoor,static,1.0,0.2,DyF-ZTL-v1,5,96.85 ± 0.36,90.50 ± 1.17,3.40 ± 4.07,1.71 ± 1.30
+adaptive_backdoor,static,1.0,0.2,FLTrust,5,96.03 ± 0.49,88.87 ± 1.86,4.70 ± 3.72,2.12 ± 2.07
+adaptive_backdoor,static,1.0,0.2,FedAvg,5,85.67 ± 3.73,54.14 ± 6.25,3.08 ± 2.27,40.01 ± 12.28
+adaptive_backdoor,static,1.0,0.2,FuzzyFLTrust,5,96.73 ± 0.31,90.39 ± 0.82,2.99 ± 1.71,1.42 ± 0.95
+adaptive_backdoor,static,1.0,0.2,FuzzyNoTrust,5,94.75 ± 2.28,82.95 ± 5.77,8.36 ± 8.61,9.77 ± 8.28
+adaptive_backdoor,static,1.0,0.2,Krum,5,88.86 ± 7.29,76.11 ± 11.02,19.96 ± 44.04,3.06 ± 4.74
+adaptive_backdoor,static,1.0,0.2,Median,5,93.18 ± 4.07,79.69 ± 10.51,6.48 ± 5.40,12.43 ± 13.79
+adaptive_backdoor,static,1.0,0.2,MultiKrum,5,95.53 ± 1.16,85.73 ± 6.41,5.47 ± 3.18,5.10 ± 6.14
+adaptive_backdoor,static,1.0,0.2,TrimmedMean,5,95.80 ± 1.27,86.17 ± 6.73,9.87 ± 6.80,4.54 ± 5.54
+adaptive_backdoor,static,1.0,0.4,DyF-ZTL,1,96.08,79.13,24.76,6.53
+adaptive_backdoor,static,1.0,0.4,DyF-ZTL-F,1,96.12,79.29,31.23,6.35
+adaptive_backdoor,static,1.0,0.4,DyF-ZTL-G,1,96.08,79.13,24.76,6.53
+adaptive_backdoor,static,1.0,0.4,DyF-ZTL-R,3,96.68 ± 0.28,86.50 ± 5.15,6.28 ± 3.45,3.26 ± 1.75
+adaptive_backdoor,static,1.0,0.4,DyF-ZTL-R-F,3,96.21 ± 0.20,82.67 ± 3.99,6.33 ± 4.94,4.86 ± 0.73
+adaptive_backdoor,static,1.0,0.4,DyF-ZTL-R-G,3,96.63 ± 0.48,86.34 ± 6.24,22.39 ± 17.59,3.60 ± 2.54
+adaptive_backdoor,static,1.0,0.4,DyF-ZTL-V,5,97.06 ± 0.39,89.49 ± 4.75,9.02 ± 2.72,2.08 ± 1.73
+adaptive_backdoor,static,1.0,0.4,DyF-ZTL-V-F,5,96.92 ± 0.43,87.97 ± 4.79,7.51 ± 4.77,2.81 ± 1.59
+adaptive_backdoor,static,1.0,0.4,DyF-ZTL-V-G,5,96.94 ± 0.26,89.73 ± 2.24,14.91 ± 8.15,2.61 ± 1.79
+adaptive_backdoor,static,1.0,0.4,DyF-ZTL-v1,5,96.63 ± 0.32,90.23 ± 0.66,6.24 ± 6.09,1.01 ± 1.09
+adaptive_backdoor,static,1.0,0.4,FLTrust,5,95.80 ± 1.09,87.89 ± 4.93,12.52 ± 6.25,3.08 ± 4.44
+adaptive_backdoor,static,1.0,0.4,FedAvg,5,86.52 ± 3.89,55.84 ± 6.70,7.43 ± 5.81,37.33 ± 13.01
+adaptive_backdoor,static,1.0,0.4,FuzzyFLTrust,5,96.57 ± 0.42,90.14 ± 0.95,21.73 ± 29.00,1.32 ± 0.82
+adaptive_backdoor,static,1.0,0.4,FuzzyNoTrust,5,95.69 ± 1.53,84.53 ± 5.73,23.58 ± 13.42,7.02 ± 5.75
+adaptive_backdoor,static,1.0,0.4,Krum,5,89.37 ± 7.68,77.50 ± 4.95,33.59 ± 42.75,5.49 ± 5.79
+adaptive_backdoor,static,1.0,0.4,Median,5,93.97 ± 3.14,82.30 ± 6.28,32.84 ± 28.89,9.50 ± 10.76
+adaptive_backdoor,static,1.0,0.4,MultiKrum,5,96.04 ± 0.16,88.60 ± 0.80,49.42 ± 30.43,1.77 ± 2.20
+adaptive_backdoor,static,1.0,0.4,TrimmedMean,5,95.67 ± 0.98,86.60 ± 5.34,31.62 ± 15.72,4.29 ± 5.22
+adaptive_flip,static,1.0,0.2,DyF-ZTL,1,97.01,91.15,2.40,3.48
+adaptive_flip,static,1.0,0.2,DyF-ZTL-F,1,95.64,80.35,0.80,7.88
+adaptive_flip,static,1.0,0.2,DyF-ZTL-G,1,97.01,91.15,2.40,3.48
+adaptive_flip,static,1.0,0.2,DyF-ZTL-R,3,96.41 ± 0.59,88.32 ± 3.08,1.35 ± 1.07,4.72 ± 3.24
+adaptive_flip,static,1.0,0.2,DyF-ZTL-R-F,3,96.22 ± 0.45,86.38 ± 0.94,2.19 ± 1.34,5.41 ± 2.43
+adaptive_flip,static,1.0,0.2,DyF-ZTL-R-G,3,96.75 ± 0.37,89.59 ± 2.49,1.50 ± 1.21,3.24 ± 1.66
+adaptive_flip,static,1.0,0.2,DyF-ZTL-V,5,97.20 ± 0.31,90.36 ± 3.11,1.21 ± 1.26,1.94 ± 1.48
+adaptive_flip,static,1.0,0.2,DyF-ZTL-V-F,5,97.14 ± 0.39,89.81 ± 3.35,1.11 ± 1.36,2.49 ± 1.77
+adaptive_flip,static,1.0,0.2,DyF-ZTL-V-G,5,96.43 ± 1.04,87.19 ± 5.00,4.03 ± 7.33,4.75 ± 4.27
+adaptive_flip,static,1.0,0.2,DyF-ZTL-v1,5,96.77 ± 0.51,88.84 ± 4.73,0.28 ± 0.27,2.19 ± 2.41
+adaptive_flip,static,1.0,0.2,FLTrust,5,96.15 ± 0.39,89.10 ± 1.62,1.82 ± 2.21,2.23 ± 1.93
+adaptive_flip,static,1.0,0.2,FedAvg,5,86.88 ± 3.67,57.91 ± 7.43,1.60 ± 0.92,36.00 ± 12.33
+adaptive_flip,static,1.0,0.2,FuzzyFLTrust,5,96.95 ± 0.21,91.01 ± 0.33,0.59 ± 0.71,1.34 ± 0.64
+adaptive_flip,static,1.0,0.2,FuzzyNoTrust,5,96.10 ± 0.82,85.28 ± 3.90,2.47 ± 3.37,5.68 ± 3.44
+adaptive_flip,static,1.0,0.2,Krum,5,89.27 ± 7.31,71.35 ± 11.21,3.32 ± 4.24,5.89 ± 5.24
+adaptive_flip,static,1.0,0.2,Median,5,95.30 ± 1.28,84.23 ± 7.77,2.74 ± 3.45,5.65 ± 7.00
+adaptive_flip,static,1.0,0.2,MultiKrum,5,95.56 ± 1.10,85.07 ± 5.92,1.17 ± 0.79,5.57 ± 4.91
+adaptive_flip,static,1.0,0.2,TrimmedMean,5,95.41 ± 0.92,83.90 ± 6.25,1.80 ± 2.12,5.30 ± 5.00
+adaptive_flip,static,1.0,0.4,DyF-ZTL,1,94.51,77.88,1.73,11.72
+adaptive_flip,static,1.0,0.4,DyF-ZTL-F,1,94.51,77.88,1.73,11.72
+adaptive_flip,static,1.0,0.4,DyF-ZTL-G,1,94.51,77.88,1.73,11.72
+adaptive_flip,static,1.0,0.4,DyF-ZTL-R,3,96.61 ± 0.48,90.07 ± 1.48,3.25 ± 3.00,3.76 ± 2.10
+adaptive_flip,static,1.0,0.4,DyF-ZTL-R-F,3,96.28 ± 0.88,89.06 ± 2.69,2.53 ± 2.48,4.72 ± 3.94
+adaptive_flip,static,1.0,0.4,DyF-ZTL-R-G,3,95.75 ± 1.31,84.94 ± 6.63,1.49 ± 1.02,6.88 ± 5.22
+adaptive_flip,static,1.0,0.4,DyF-ZTL-V,5,97.14 ± 0.48,90.52 ± 2.93,1.31 ± 0.79,2.84 ± 1.82
+adaptive_flip,static,1.0,0.4,DyF-ZTL-V-F,5,97.13 ± 0.48,90.67 ± 2.83,1.38 ± 1.01,2.64 ± 1.87
+adaptive_flip,static,1.0,0.4,DyF-ZTL-V-G,5,96.50 ± 1.14,89.33 ± 3.49,0.48 ± 0.15,5.04 ± 4.24
+adaptive_flip,static,1.0,0.4,DyF-ZTL-v1,5,96.61 ± 0.65,88.52 ± 4.99,2.11 ± 3.39,2.78 ± 2.95
+adaptive_flip,static,1.0,0.4,FLTrust,5,96.11 ± 0.19,89.39 ± 0.86,1.18 ± 1.10,0.74 ± 0.65
+adaptive_flip,static,1.0,0.4,FedAvg,5,88.38 ± 4.56,60.74 ± 9.75,0.52 ± 0.38,30.61 ± 14.21
+adaptive_flip,static,1.0,0.4,FuzzyFLTrust,5,96.85 ± 0.35,90.72 ± 0.87,0.41 ± 0.35,1.90 ± 0.61
+adaptive_flip,static,1.0,0.4,FuzzyNoTrust,5,96.00 ± 1.22,87.56 ± 4.20,1.92 ± 2.21,6.11 ± 4.94
+adaptive_flip,static,1.0,0.4,Krum,5,89.20 ± 7.31,76.67 ± 8.60,2.37 ± 3.45,3.59 ± 4.55
+adaptive_flip,static,1.0,0.4,Median,5,95.35 ± 1.28,85.60 ± 5.82,2.11 ± 3.83,5.34 ± 6.05
+adaptive_flip,static,1.0,0.4,MultiKrum,5,95.96 ± 0.57,88.38 ± 2.48,2.21 ± 2.82,2.36 ± 3.33
+adaptive_flip,static,1.0,0.4,TrimmedMean,5,95.60 ± 1.14,86.28 ± 6.15,1.92 ± 2.21,3.96 ± 5.15
+backdoor,static,1.0,0.2,DyF-ZTL,2,96.69 ± 0.59,85.90 ± 7.61,10.86 ± 3.05,3.97 ± 3.11
+backdoor,static,1.0,0.2,DyF-ZTL-F,2,95.41 ± 0.71,82.31 ± 5.28,17.89 ± 4.85,8.46 ± 3.06
+backdoor,static,1.0,0.2,DyF-ZTL-G,2,96.26 ± 0.01,84.07 ± 5.03,21.24 ± 11.64,5.65 ± 0.73
+backdoor,static,1.0,0.2,DyF-ZTL-R,3,96.48 ± 0.46,85.96 ± 6.14,23.04 ± 16.54,4.03 ± 2.28
+backdoor,static,1.0,0.2,DyF-ZTL-R-F,3,96.46 ± 0.36,85.59 ± 5.83,21.70 ± 17.80,4.21 ± 1.93
+backdoor,static,1.0,0.2,DyF-ZTL-R-G,3,96.49 ± 0.40,86.10 ± 4.99,15.61 ± 12.77,4.27 ± 2.44
+backdoor,static,1.0,0.2,DyF-ZTL-V,5,97.24 ± 0.16,91.36 ± 1.02,7.13 ± 4.39,1.44 ± 0.88
+backdoor,static,1.0,0.2,DyF-ZTL-V-F,5,97.09 ± 0.30,90.15 ± 2.27,6.49 ± 4.78,2.01 ± 1.11
+backdoor,static,1.0,0.2,DyF-ZTL-V-G,5,96.91 ± 0.35,89.12 ± 3.93,16.75 ± 12.70,2.71 ± 1.98
+backdoor,static,1.0,0.2,DyF-ZTL-v1,5,96.42 ± 0.37,89.52 ± 1.31,14.28 ± 8.88,2.36 ± 2.28
+backdoor,static,1.0,0.2,FLTrust,5,96.14 ± 0.23,89.35 ± 1.02,8.58 ± 6.42,1.37 ± 0.76
+backdoor,static,1.0,0.2,FedAvg,5,86.17 ± 4.43,54.77 ± 7.02,11.07 ± 14.43,38.27 ± 14.54
+backdoor,static,1.0,0.2,FuzzyFLTrust,5,96.65 ± 0.32,90.54 ± 0.50,22.55 ± 41.05,1.45 ± 0.71
+backdoor,static,1.0,0.2,FuzzyNoTrust,5,95.91 ± 1.24,86.35 ± 5.57,20.84 ± 10.70,6.12 ± 5.03
+backdoor,static,1.0,0.2,Krum,5,88.52 ± 6.15,72.73 ± 6.54,32.74 ± 45.59,5.64 ± 5.48
+backdoor,static,1.0,0.2,Median,5,95.54 ± 1.18,83.11 ± 9.50,76.87 ± 19.46,4.74 ± 6.44
+backdoor,static,1.0,0.2,MultiKrum,5,95.54 ± 1.14,85.22 ± 6.75,63.24 ± 24.98,4.81 ± 5.93
+backdoor,static,1.0,0.2,TrimmedMean,5,95.07 ± 1.78,83.92 ± 9.25,56.98 ± 28.28,6.19 ± 8.36
+backdoor,static,1.0,0.4,DyF-ZTL,2,95.36 ± 0.86,80.39 ± 2.37,73.10 ± 38.04,8.15 ± 2.03
+backdoor,static,1.0,0.4,DyF-ZTL-F,2,94.56 ± 1.31,76.43 ± 2.40,81.17 ± 26.63,10.74 ± 3.54
+backdoor,static,1.0,0.4,DyF-ZTL-G,2,95.53 ± 0.63,80.73 ± 2.85,73.10 ± 38.04,7.91 ± 1.68
+backdoor,static,1.0,0.4,DyF-ZTL-R,3,95.96 ± 0.40,82.83 ± 4.43,68.27 ± 29.05,5.15 ± 1.09
+backdoor,static,1.0,0.4,DyF-ZTL-R-F,3,96.14 ± 0.55,83.49 ± 4.94,66.67 ± 27.29,5.13 ± 2.29
+backdoor,static,1.0,0.4,DyF-ZTL-R-G,3,95.52 ± 0.45,79.91 ± 2.47,69.35 ± 27.67,6.59 ± 2.57
+backdoor,static,1.0,0.4,DyF-ZTL-V,5,97.02 ± 0.45,89.27 ± 4.64,88.15 ± 13.81,2.17 ± 2.08
+backdoor,static,1.0,0.4,DyF-ZTL-V-F,5,96.83 ± 0.36,87.76 ± 4.38,74.12 ± 22.81,2.63 ± 1.78
+backdoor,static,1.0,0.4,DyF-ZTL-V-G,5,96.83 ± 0.62,88.57 ± 5.00,80.03 ± 21.46,2.89 ± 2.68
+backdoor,static,1.0,0.4,DyF-ZTL-v1,5,96.19 ± 0.26,87.96 ± 2.61,92.69 ± 10.43,2.32 ± 2.48
+backdoor,static,1.0,0.4,FLTrust,5,96.11 ± 0.22,89.24 ± 0.97,43.04 ± 48.04,1.17 ± 0.99
+backdoor,static,1.0,0.4,FedAvg,5,87.26 ± 3.97,56.95 ± 6.83,62.09 ± 29.89,34.69 ± 12.97
+backdoor,static,1.0,0.4,FuzzyFLTrust,5,96.55 ± 0.29,89.88 ± 0.83,53.74 ± 49.40,1.56 ± 1.09
+backdoor,static,1.0,0.4,FuzzyNoTrust,5,95.78 ± 1.32,83.15 ± 7.20,68.61 ± 20.51,5.96 ± 5.16
+backdoor,static,1.0,0.4,Krum,5,89.00 ± 4.42,73.08 ± 6.10,59.13 ± 40.04,11.95 ± 15.08
+backdoor,static,1.0,0.4,Median,5,95.08 ± 1.16,83.39 ± 7.29,99.31 ± 0.48,5.38 ± 6.78
+backdoor,static,1.0,0.4,MultiKrum,5,95.89 ± 0.72,88.08 ± 2.68,98.84 ± 1.22,2.38 ± 3.09
+backdoor,static,1.0,0.4,TrimmedMean,5,95.56 ± 1.21,86.34 ± 6.10,98.15 ± 2.10,3.65 ± 4.80
+backdoor_boost,static,1.0,0.2,DyF-ZTL,1,90.29,71.83,17.21,25.15
+backdoor_boost,static,1.0,0.2,DyF-ZTL-F,1,85.93,62.97,0.60,39.19
+backdoor_boost,static,1.0,0.2,DyF-ZTL-G,1,90.29,71.83,17.21,25.15
+backdoor_boost,static,1.0,0.2,DyF-ZTL-R,3,93.24 ± 5.65,81.09 ± 13.13,3.85 ± 4.34,14.51 ± 18.99
+backdoor_boost,static,1.0,0.2,DyF-ZTL-R-F,3,92.12 ± 5.90,77.20 ± 14.13,2.94 ± 0.71,17.83 ± 20.63
+backdoor_boost,static,1.0,0.2,DyF-ZTL-R-G,3,94.36 ± 3.56,82.99 ± 9.95,6.93 ± 9.02,10.99 ± 12.56
+backdoor_boost,static,1.0,0.2,DyF-ZTL-V,5,95.48 ± 2.56,85.72 ± 7.37,6.37 ± 8.53,7.53 ± 9.33
+backdoor_boost,static,1.0,0.2,DyF-ZTL-V-F,5,94.59 ± 3.43,82.85 ± 7.79,7.02 ± 8.59,10.44 ± 12.06
+backdoor_boost,static,1.0,0.2,DyF-ZTL-V-G,5,95.48 ± 3.13,85.11 ± 8.16,7.94 ± 16.42,7.48 ± 10.88
+backdoor_boost,static,1.0,0.2,DyF-ZTL-v1,5,96.63 ± 0.49,89.81 ± 0.92,0.68 ± 0.60,1.87 ± 1.29
+backdoor_boost,static,1.0,0.2,FLTrust,5,95.94 ± 0.78,88.45 ± 2.96,8.55 ± 10.28,2.50 ± 3.11
+backdoor_boost,static,1.0,0.2,FedAvg,5,91.04 ± 2.65,64.23 ± 4.14,97.16 ± 4.55,22.53 ± 7.95
+backdoor_boost,static,1.0,0.2,FuzzyFLTrust,5,96.66 ± 0.31,90.60 ± 0.50,22.80 ± 41.53,1.44 ± 0.69
+backdoor_boost,static,1.0,0.2,FuzzyNoTrust,5,95.72 ± 1.61,84.34 ± 9.77,100.00 ± 0.00,5.76 ± 6.29
+backdoor_boost,static,1.0,0.2,Krum,5,92.86 ± 2.17,78.97 ± 7.52,1.44 ± 1.24,4.37 ± 4.89
+backdoor_boost,static,1.0,0.2,Median,5,95.79 ± 1.06,86.73 ± 4.58,81.35 ± 14.69,4.75 ± 4.37
+backdoor_boost,static,1.0,0.2,MultiKrum,5,93.64 ± 2.60,77.37 ± 11.09,0.80 ± 0.57,13.27 ± 10.28
+backdoor_boost,static,1.0,0.2,TrimmedMean,5,95.96 ± 0.60,86.52 ± 6.25,69.60 ± 14.69,3.54 ± 3.95
+backdoor_boost,static,1.0,0.4,DyF-ZTL,1,95.11,78.14,1.28,9.65
+backdoor_boost,static,1.0,0.4,DyF-ZTL-F,1,96.76,89.25,100.00,1.47
+backdoor_boost,static,1.0,0.4,DyF-ZTL-G,1,95.46,87.43,21.91,8.06
+backdoor_boost,static,1.0,0.4,DyF-ZTL-R,3,96.04 ± 1.39,86.90 ± 5.50,2.21 ± 1.47,5.88 ± 4.83
+backdoor_boost,static,1.0,0.4,DyF-ZTL-R-F,3,95.98 ± 1.31,86.85 ± 5.32,2.47 ± 2.97,5.92 ± 4.99
+backdoor_boost,static,1.0,0.4,DyF-ZTL-R-G,3,96.11 ± 0.61,88.80 ± 1.23,73.00 ± 44.26,3.50 ± 4.02
+backdoor_boost,static,1.0,0.4,DyF-ZTL-V,5,96.33 ± 1.27,88.50 ± 2.76,1.98 ± 2.78,4.74 ± 5.08
+backdoor_boost,static,1.0,0.4,DyF-ZTL-V-F,5,96.09 ± 1.63,87.04 ± 5.87,2.79 ± 4.02,5.69 ± 6.34
+backdoor_boost,static,1.0,0.4,DyF-ZTL-V-G,5,94.85 ± 3.79,85.06 ± 11.73,46.25 ± 37.71,9.10 ± 13.62
+backdoor_boost,static,1.0,0.4,DyF-ZTL-v1,5,96.48 ± 0.53,87.73 ± 5.33,58.54 ± 45.28,2.25 ± 1.75
+backdoor_boost,static,1.0,0.4,FLTrust,5,95.79 ± 0.64,88.03 ± 2.49,53.93 ± 38.61,2.47 ± 2.98
+backdoor_boost,static,1.0,0.4,FedAvg,5,89.06 ± 5.38,60.70 ± 8.71,98.13 ± 4.06,29.34 ± 17.09
+backdoor_boost,static,1.0,0.4,FuzzyFLTrust,5,96.53 ± 0.30,89.83 ± 0.92,53.67 ± 49.44,1.58 ± 1.11
+backdoor_boost,static,1.0,0.4,FuzzyNoTrust,5,96.29 ± 0.40,84.62 ± 5.52,100.00 ± 0.00,4.13 ± 1.71
+backdoor_boost,static,1.0,0.4,Krum,5,89.57 ± 4.81,71.88 ± 6.87,3.00 ± 3.67,14.44 ± 16.15
+backdoor_boost,static,1.0,0.4,Median,5,95.52 ± 1.15,84.39 ± 6.10,99.51 ± 0.57,4.90 ± 5.11
+backdoor_boost,static,1.0,0.4,MultiKrum,5,93.99 ± 2.22,78.55 ± 10.44,28.57 ± 26.33,11.29 ± 9.48
+backdoor_boost,static,1.0,0.4,TrimmedMean,5,95.49 ± 1.11,85.91 ± 5.30,99.67 ± 0.31,4.92 ± 5.82
+cyclic_flip,rotating,1.0,0.2,DyF-ZTL,1,97.06,89.94,6.02,2.63
+cyclic_flip,rotating,1.0,0.2,DyF-ZTL-R,3,95.78 ± 1.71,85.42 ± 7.28,5.08 ± 3.95,6.17 ± 6.52
+cyclic_flip,rotating,1.0,0.2,DyF-ZTL-V,5,97.22 ± 0.27,91.14 ± 1.88,0.54 ± 0.46,1.77 ± 1.14
+cyclic_flip,rotating,1.0,0.2,DyF-ZTL-v1,5,96.76 ± 0.21,90.23 ± 1.26,0.31 ± 0.40,1.64 ± 1.11
+cyclic_flip,rotating,1.0,0.2,FLTrust,5,96.02 ± 0.30,88.79 ± 1.33,1.66 ± 3.29,1.70 ± 1.46
+cyclic_flip,rotating,1.0,0.2,FedAvg,5,82.68 ± 0.37,49.32 ± 1.00,1.33 ± 1.15,40.09 ± 19.69
+cyclic_flip,rotating,1.0,0.4,DyF-ZTL,1,96.61,87.89,0.50,2.81
+cyclic_flip,rotating,1.0,0.4,DyF-ZTL-R,3,96.34 ± 0.27,87.55 ± 1.40,0.30 ± 0.04,3.58 ± 1.83
+cyclic_flip,rotating,1.0,0.4,DyF-ZTL-V,5,97.03 ± 0.36,90.57 ± 1.84,0.29 ± 0.30,2.06 ± 1.50
+cyclic_flip,rotating,1.0,0.4,DyF-ZTL-v1,5,96.84 ± 0.32,90.67 ± 0.76,0.70 ± 1.19,1.49 ± 0.64
+cyclic_flip,rotating,1.0,0.4,FLTrust,5,95.93 ± 0.34,88.18 ± 1.48,0.49 ± 0.71,1.81 ± 0.64
+cyclic_flip,rotating,1.0,0.4,FedAvg,5,74.79 ± 15.30,44.91 ± 9.77,1.13 ± 2.09,25.20 ± 16.11
+cyclic_flip,sleeper,1.0,0.2,DyF-ZTL,1,93.35,75.57,1.08,15.51
+cyclic_flip,sleeper,1.0,0.2,DyF-ZTL-R,3,94.91 ± 1.55,81.83 ± 7.62,3.82 ± 2.63,8.69 ± 7.01
+cyclic_flip,sleeper,1.0,0.2,DyF-ZTL-V,5,95.81 ± 2.34,87.03 ± 6.44,5.28 ± 9.76,6.78 ± 8.35
+cyclic_flip,sleeper,1.0,0.2,DyF-ZTL-v1,5,96.43 ± 0.34,88.03 ± 2.95,1.40 ± 1.42,2.53 ± 1.96
+cyclic_flip,sleeper,1.0,0.2,FLTrust,5,94.88 ± 2.67,85.28 ± 7.48,1.60 ± 2.95,3.03 ± 3.22
+cyclic_flip,sleeper,1.0,0.2,FedAvg,5,84.52 ± 2.84,55.43 ± 5.71,1.33 ± 1.32,35.95 ± 13.97
+cyclic_flip,sleeper,1.0,0.4,DyF-ZTL,1,94.28,80.22,0.42,12.70
+cyclic_flip,sleeper,1.0,0.4,DyF-ZTL-R,3,95.50 ± 1.48,84.02 ± 6.43,2.45 ± 2.50,7.12 ± 5.83
+cyclic_flip,sleeper,1.0,0.4,DyF-ZTL-V,5,94.56 ± 4.59,83.88 ± 8.13,1.70 ± 2.11,10.57 ± 15.59
+cyclic_flip,sleeper,1.0,0.4,DyF-ZTL-v1,5,96.68 ± 0.43,90.08 ± 1.85,3.27 ± 3.47,1.81 ± 1.37
+cyclic_flip,sleeper,1.0,0.4,FLTrust,5,96.09 ± 0.08,88.92 ± 0.27,2.18 ± 3.36,1.22 ± 1.09
+cyclic_flip,sleeper,1.0,0.4,FedAvg,5,67.61 ± 31.82,42.82 ± 18.85,1.18 ± 1.83,33.17 ± 17.71
+cyclic_flip,static,0.5,0.2,DyF-ZTL,1,92.10,75.29,1.98,19.96
+cyclic_flip,static,0.5,0.2,DyF-ZTL-R,3,95.75 ± 1.90,85.76 ± 7.89,7.78 ± 10.34,6.57 ± 7.23
+cyclic_flip,static,0.5,0.2,DyF-ZTL-V,5,96.44 ± 1.43,87.57 ± 6.92,0.58 ± 0.90,5.04 ± 5.32
+cyclic_flip,static,0.5,0.2,DyF-ZTL-v1,5,96.24 ± 0.83,87.24 ± 5.21,0.45 ± 0.84,2.95 ± 3.68
+cyclic_flip,static,0.5,0.2,FLTrust,5,95.99 ± 0.26,88.20 ± 1.54,1.21 ± 1.16,1.87 ± 2.08
+cyclic_flip,static,0.5,0.2,FedAvg,5,84.98 ± 7.52,55.60 ± 9.00,0.88 ± 0.89,29.93 ± 18.16
+cyclic_flip,static,0.5,0.4,DyF-ZTL,1,93.66,83.53,0.14,13.25
+cyclic_flip,static,0.5,0.4,DyF-ZTL-R,3,95.66 ± 1.61,84.65 ± 7.01,2.86 ± 1.16,6.78 ± 6.08
+cyclic_flip,static,0.5,0.4,DyF-ZTL-V,5,97.09 ± 0.43,91.81 ± 0.42,1.01 ± 1.87,2.76 ± 1.93
+cyclic_flip,static,0.5,0.4,DyF-ZTL-v1,5,94.60 ± 3.85,86.69 ± 5.64,0.68 ± 0.73,7.03 ± 14.60
+cyclic_flip,static,0.5,0.4,FLTrust,5,95.98 ± 0.33,88.98 ± 1.19,1.25 ± 0.82,0.68 ± 0.63
+cyclic_flip,static,0.5,0.4,FedAvg,5,66.17 ± 31.86,43.78 ± 24.54,1.62 ± 0.96,19.27 ± 13.02
+targeted_flip,static,1.0,0.2,DyF-ZTL,2,89.47 ± 6.13,68.80 ± 10.16,1.53 ± 1.72,27.56 ± 20.16
+targeted_flip,static,1.0,0.2,DyF-ZTL-F,2,88.48 ± 4.90,63.67 ± 3.44,1.12 ± 0.68,31.04 ± 15.76
+targeted_flip,static,1.0,0.2,DyF-ZTL-G,2,88.00 ± 5.73,58.53 ± 8.60,2.22 ± 2.49,33.21 ± 18.48
+targeted_flip,static,1.0,0.2,DyF-ZTL-R,4,94.20 ± 4.99,83.53 ± 11.77,3.31 ± 3.71,11.28 ± 16.80
+targeted_flip,static,1.0,0.2,DyF-ZTL-R-F,4,93.13 ± 5.23,77.62 ± 11.56,2.64 ± 0.84,14.42 ± 18.17
+targeted_flip,static,1.0,0.2,DyF-ZTL-R-G,4,92.33 ± 6.01,72.46 ± 17.13,3.60 ± 2.79,18.76 ± 19.87
+targeted_flip,static,1.0,0.2,DyF-ZTL-V,5,95.48 ± 2.56,85.72 ± 7.37,6.37 ± 8.53,7.53 ± 9.33
+targeted_flip,static,1.0,0.2,DyF-ZTL-V-F,5,94.59 ± 3.43,82.85 ± 7.79,7.02 ± 8.59,10.44 ± 12.06
+targeted_flip,static,1.0,0.2,DyF-ZTL-V-G,5,91.24 ± 6.31,71.86 ± 17.75,4.25 ± 7.07,22.54 ± 21.00
+targeted_flip,static,1.0,0.2,DyF-ZTL-v1,5,96.88 ± 0.43,90.74 ± 0.78,0.71 ± 1.22,1.53 ± 0.97
+targeted_flip,static,1.0,0.2,FLTrust,5,95.56 ± 1.06,85.80 ± 6.38,0.94 ± 1.23,4.86 ± 4.75
+targeted_flip,static,1.0,0.2,FedAvg,5,83.18 ± 0.64,50.12 ± 2.19,3.26 ± 2.41,48.94 ± 2.04
+targeted_flip,static,1.0,0.2,FuzzyFLTrust,5,96.25 ± 0.35,88.00 ± 2.01,1.76 ± 1.63,3.13 ± 2.69
+targeted_flip,static,1.0,0.2,FuzzyNoTrust,5,89.53 ± 6.59,67.27 ± 17.15,4.74 ± 3.97,28.06 ± 21.84
+targeted_flip,static,1.0,0.2,Krum,5,83.55 ± 10.83,46.65 ± 28.01,0.05 ± 0.07,42.22 ± 43.73
+targeted_flip,static,1.0,0.2,Median,5,88.67 ± 6.19,64.68 ± 17.86,2.98 ± 2.04,29.67 ± 22.19
+targeted_flip,static,1.0,0.2,MultiKrum,5,91.12 ± 4.15,71.57 ± 13.02,1.13 ± 0.62,21.53 ± 16.27
+targeted_flip,static,1.0,0.2,TrimmedMean,5,91.24 ± 5.13,73.17 ± 15.35,1.94 ± 2.40,21.47 ± 18.50
+targeted_flip,static,1.0,0.4,DyF-ZTL,2,90.66 ± 8.05,74.63 ± 19.26,8.55 ± 1.23,23.84 ± 26.12
+targeted_flip,static,1.0,0.4,DyF-ZTL-F,2,90.66 ± 8.05,74.63 ± 19.26,8.55 ± 1.23,23.84 ± 26.12
+targeted_flip,static,1.0,0.4,DyF-ZTL-G,2,84.43 ± 2.64,52.70 ± 9.34,10.43 ± 14.75,46.15 ± 8.72
+targeted_flip,static,1.0,0.4,DyF-ZTL-R,3,96.04 ± 1.39,86.90 ± 5.50,2.21 ± 1.47,5.88 ± 4.83
+targeted_flip,static,1.0,0.4,DyF-ZTL-R-F,3,95.98 ± 1.31,86.85 ± 5.32,2.47 ± 2.97,5.92 ± 4.99
+targeted_flip,static,1.0,0.4,DyF-ZTL-R-G,3,86.95 ± 4.75,57.17 ± 10.17,13.36 ± 11.60,38.16 ± 15.16
+targeted_flip,static,1.0,0.4,DyF-ZTL-V,5,96.33 ± 1.27,88.50 ± 2.76,1.98 ± 2.78,4.74 ± 5.08
+targeted_flip,static,1.0,0.4,DyF-ZTL-V-F,5,96.09 ± 1.63,87.04 ± 5.87,2.79 ± 4.02,5.69 ± 6.34
+targeted_flip,static,1.0,0.4,DyF-ZTL-V-G,5,86.94 ± 7.37,58.83 ± 21.56,9.81 ± 16.22,38.60 ± 24.19
+targeted_flip,static,1.0,0.4,DyF-ZTL-v1,5,96.32 ± 0.77,90.32 ± 0.95,2.05 ± 2.00,3.91 ± 3.85
+targeted_flip,static,1.0,0.4,FLTrust,5,93.26 ± 2.67,79.46 ± 8.70,1.62 ± 1.20,13.48 ± 11.91
+targeted_flip,static,1.0,0.4,FedAvg,5,78.96 ± 3.73,39.40 ± 12.25,5.65 ± 6.66,64.44 ± 14.26
+targeted_flip,static,1.0,0.4,FuzzyFLTrust,5,95.98 ± 1.49,87.24 ± 5.81,7.29 ± 7.75,5.96 ± 6.51
+targeted_flip,static,1.0,0.4,FuzzyNoTrust,5,82.69 ± 5.09,48.46 ± 9.31,21.36 ± 19.32,52.80 ± 17.31
+targeted_flip,static,1.0,0.4,Krum,5,68.98 ± 0.00,11.66 ± 0.00,,100.00 ± 0.00
+targeted_flip,static,1.0,0.4,Median,5,76.56 ± 8.52,27.90 ± 15.56,42.61 ± 36.28,73.49 ± 29.38
+targeted_flip,static,1.0,0.4,MultiKrum,5,69.37 ± 0.87,13.37 ± 3.83,0.00,98.72 ± 2.87
+targeted_flip,static,1.0,0.4,TrimmedMean,5,75.46 ± 5.78,30.96 ± 15.68,36.71 ± 36.25,77.78 ± 19.17

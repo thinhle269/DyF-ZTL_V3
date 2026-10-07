@@ -1,0 +1,16 @@
+feature,spearman_time_normal,shift_late_vs_train_normal_sd,late_normal_closer_to,auc_feature_vs_label
+Memory System Driver Total Bytes,0.813,1.68,attack,0.512
+Process_Thread Count,0.705,2.12,attack,0.757
+Process_Handle Count,0.678,1.72,attack,0.719
+Process_Virtual_Bytes,0.65,2.0,attack,0.745
+Process_Virtual_Bytes Peak,0.65,2.0,attack,0.745
+Process_Pool_Paged Bytes,0.623,1.74,attack,0.719
+Memory Free System Page Table Entries,0.614,-0.29,attack,0.672
+Memory Long-Term Average Standby Cache Lifetime (s),0.604,1.54,attack,0.791
+Network_I(Intel R _82574L_GNC)TCP_APS,0.603,1.63,attack,0.774
+Process_IO Data Operations_sec,0.267,0.01,attack,0.827
+LogicalDisk(_Total) pct_ Free Space,-0.237,-0.18,attack,0.524
+LogicalDisk(_Total) Free Megabytes,-0.228,-0.18,attack,0.523
+Memory Cache Bytes Peak,0.195,-0.23,attack,0.567
+Network_I(Intel R _82574L_GNC) Packets sec,-0.044,0.27,attack,0.592
+Network_I(Intel R _82574L_GNC) Packets Received Unicast sec,0.041,0.35,attack,0.586

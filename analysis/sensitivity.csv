@@ -1,0 +1,37 @@
+trust_params,gate_set,ratio,Accuracy (mean),Accuracy (std),Accuracy (count),F1-Score (mean),F1-Score (std),F1-Score (count)
+"{""alpha"": 0.25, ""functional_ref"": ""reference""}",default-V-R-U,0.2,96.142,1.321,5,87.798,5.279,5
+"{""alpha"": 0.25, ""functional_ref"": ""reference""}",default-V-R-U,0.4,94.672,5.091,5,85.332,10.865,5
+"{""alpha"": 1.0, ""functional_ref"": ""reference""}",default-V-R-U,0.2,94.184,5.067,5,83.506,12.236,5
+"{""alpha"": 1.0, ""functional_ref"": ""reference""}",default-V-R-U,0.4,96.358,1.273,5,88.508,2.754,5
+"{""decay_factor"": 0.1, ""functional_ref"": ""reference""}",default-V-R-U,0.2,95.52,2.481,5,86.02,6.551,5
+"{""decay_factor"": 0.1, ""functional_ref"": ""reference""}",default-V-R-U,0.4,96.396,1.304,5,88.69,2.929,5
+"{""decay_factor"": 0.4, ""functional_ref"": ""reference""}",default-V-R-U,0.2,95.656,2.497,5,86.322,6.589,5
+"{""decay_factor"": 0.4, ""functional_ref"": ""reference""}",default-V-R-U,0.4,96.35,1.281,5,88.314,2.84,5
+"{""decay_factor"": 0.8, ""functional_ref"": ""reference""}",default-V-R-U,0.2,96.892,0.565,5,89.144,4.084,5
+"{""decay_factor"": 0.8, ""functional_ref"": ""reference""}",default-V-R-U,0.4,96.026,1.226,5,88.85,2.777,5
+"{""functional_ref"": ""reference"", ""mild_decay"": 0.8}",default-V-R-U,0.2,96.106,1.583,5,89.49,2.946,5
+"{""functional_ref"": ""reference"", ""mild_decay"": 0.8}",default-V-R-U,0.4,94.728,4.131,5,86.974,6.009,5
+"{""functional_ref"": ""reference"", ""mild_decay"": 0.95}",default-V-R-U,0.2,93.936,4.996,5,82.288,12.02,5
+"{""functional_ref"": ""reference"", ""mild_decay"": 0.95}",default-V-R-U,0.4,93.85,5.87,5,81.232,16.025,5
+"{""functional_ref"": ""reference"", ""min_safety_threshold"": 0.2}",default-V-R-U,0.2,95.564,2.508,5,86.312,6.652,5
+"{""functional_ref"": ""reference"", ""min_safety_threshold"": 0.2}",default-V-R-U,0.4,94.234,5.795,5,82.76,14.289,5
+"{""functional_ref"": ""reference"", ""min_safety_threshold"": 0.6}",default-V-R-U,0.2,95.354,3.79,5,86.156,8.695,5
+"{""functional_ref"": ""reference"", ""min_safety_threshold"": 0.6}",default-V-R-U,0.4,96.368,0.914,5,89.796,1.342,5
+"{""functional_ref"": ""reference"", ""recovery_factor"": 0.02}",default-V-R-U,0.2,95.382,3.6,5,85.838,8.741,5
+"{""functional_ref"": ""reference"", ""recovery_factor"": 0.02}",default-V-R-U,0.4,96.33,1.591,5,88.274,4.633,5
+"{""functional_ref"": ""reference"", ""recovery_factor"": 0.1}",default-V-R-U,0.2,94.462,5.027,5,83.614,12.047,5
+"{""functional_ref"": ""reference"", ""recovery_factor"": 0.1}",default-V-R-U,0.4,94.952,4.288,5,84.854,11.608,5
+"{""functional_ref"": ""reference"", ""warmup_rounds"": 2}",default-V-R-U,0.2,94.61,4.83,5,83.744,11.69,5
+"{""functional_ref"": ""reference"", ""warmup_rounds"": 2}",default-V-R-U,0.4,96.662,0.756,5,90.382,2.127,5
+"{""functional_ref"": ""reference"", ""warmup_rounds"": 3}",default-V-R-U,0.2,94.368,5.018,5,83.144,12.72,5
+"{""functional_ref"": ""reference"", ""warmup_rounds"": 3}",default-V-R-U,0.4,95.304,3.202,5,87.412,6.041,5
+"{""functional_ref"": ""reference"", ""warmup_rounds"": 4}",default-V-R-U,0.2,95.724,1.894,5,85.488,7.771,5
+"{""functional_ref"": ""reference"", ""warmup_rounds"": 4}",default-V-R-U,0.4,94.362,5.193,5,85.65,10.147,5
+"{""functional_ref"": ""reference""}",q_mild10-V-R-U,0.2,96.83,0.776,5,90.06,2.532,5
+"{""functional_ref"": ""reference""}",q_mild10-V-R-U,0.4,96.328,1.219,5,89.554,2.63,5
+"{""functional_ref"": ""reference""}",q_mild2-V-R-U,0.2,94.47,5.15,5,83.244,12.499,5
+"{""functional_ref"": ""reference""}",q_mild2-V-R-U,0.4,94.058,5.933,5,82.798,16.415,5
+"{""functional_ref"": ""reference""}",q_strong0.1-V-R-U,0.2,95.574,2.451,5,86.162,6.605,5
+"{""functional_ref"": ""reference""}",q_strong0.1-V-R-U,0.4,96.368,1.287,5,88.422,3.091,5
+"{""functional_ref"": ""reference""}",q_strong1-V-R-U,0.2,95.15,3.669,5,85.69,8.525,5
+"{""functional_ref"": ""reference""}",q_strong1-V-R-U,0.4,96.454,1.334,5,89.26,3.239,5

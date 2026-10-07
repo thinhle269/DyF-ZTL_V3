@@ -1,0 +1,5 @@
+method,Accuracy (mean),Accuracy (std),Accuracy (count),F1-Score (mean),F1-Score (std),F1-Score (count)
+FuzzyNoTrust,95.03,1.767,3,77.823,3.491,3
+FuzzyNoTrust-W,83.337,0.133,3,50.96,0.394,3
+FuzzyNoTrust-legacy,95.203,1.719,3,81.987,8.79,3
+FuzzyNoTrust-legacy-W,84.163,1.842,3,52.477,3.973,3

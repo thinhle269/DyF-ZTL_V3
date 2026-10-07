@@ -1,0 +1,11 @@
+split,method,Accuracy (mean),Accuracy (std),Accuracy (count),F1-Score (mean),F1-Score (std),F1-Score (count),FAR Benign->Attack (mean),FAR Benign->Attack (std),FAR Benign->Attack (count)
+chrono_class,DyF-ZTL,28.81,4.978,2,38.86,2.277,2,98.63,1.047,2
+chrono_class,DyF-ZTL-R,23.042,5.469,4,30.62,9.613,4,98.448,1.211,4
+chrono_class,DyF-ZTL-V,26.108,6.814,10,31.041,5.725,10,93.569,7.921,10
+chrono_class,FedAvg,23.419,4.544,10,23.981,2.482,10,91.348,6.685,10
+chrono_class,FedProx,25.03,1.647,10,32.444,1.599,10,98.672,1.317,10
+random,DyF-ZTL,96.678,0.451,10,87.247,5.037,10,3.278,0.523,10
+random,DyF-ZTL-R,96.785,0.404,10,87.241,5.055,10,3.242,0.478,10
+random,DyF-ZTL-V,96.882,0.5,10,88.048,5.376,10,3.147,0.412,10
+random,FedAvg,88.054,3.879,10,58.557,8.621,10,2.645,0.355,10
+random,FedProx,93.933,1.369,10,76.61,7.696,10,2.771,0.329,10

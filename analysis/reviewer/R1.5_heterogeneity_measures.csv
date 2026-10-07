@@ -1,0 +1,7 @@
+alpha,smote,mean_JS_to_global,mean_classes_per_client,size_cv
+0.1,True,0.448,3.41,1.375
+0.5,False,0.218,5.48,0.863
+0.5,True,0.218,5.48,0.863
+1.0,True,0.127,5.85,0.596
+10.0,True,0.039,5.85,0.144
+IID,True,0.001,7.0,0.0

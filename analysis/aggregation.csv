@@ -1,0 +1,9 @@
+comparison,metric,n,mean_a,mean_b,diff,ci_low,ci_high,p_t,p_w,d_z
+FedAvg (weighted) vs FedAvg-U,Accuracy,10,88.054,94.848,-6.794,-10.0043,-3.5837,0.001,0.002,-1.5139
+FedAvg (weighted) vs FedAvg-U,F1-Score,10,58.557,79.151,-20.594,-30.3224,-10.8656,0.001,0.002,-1.5143
+FedProx (weighted) vs FedProx-U,Accuracy,10,93.933,96.27,-2.337,-3.2278,-1.4462,0.0002,0.0039,-1.8767
+FedProx (weighted) vs FedProx-U,F1-Score,10,76.61,89.412,-12.802,-17.7968,-7.8072,0.0003,0.002,-1.8335
+DyF-ZTL (weighted) vs DyF-ZTL-U,Accuracy,10,96.678,96.791,-0.113,-0.5884,0.3624,0.6038,0.7695,-0.17
+DyF-ZTL (weighted) vs DyF-ZTL-U,F1-Score,10,87.247,90.55,-3.303,-7.0774,0.4714,0.0791,0.0645,-0.626
+DyF-ZTL (weighted) vs DyF-ZTL-PS,Accuracy,10,96.678,95.474,1.204,-1.7818,4.1898,0.3855,1.0,0.2885
+DyF-ZTL (weighted) vs DyF-ZTL-PS,F1-Score,10,87.247,85.647,1.6,-6.0058,9.2058,0.6455,0.5566,0.1505
